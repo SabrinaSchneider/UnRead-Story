@@ -1,0 +1,19 @@
+{"chat":{"chatName":"Jack","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey Jack. Just wanted to let you know… I’ve been thinking a lot lately.","sender":"User"},
+{"type":"singleAnswer","text":"I signed a petition against surveillance and talked things out with Max.","sender":"User"},
+{"type":"conversation","text":"Wait, seriously?","sender":"Jack"},
+{"type":"conversation","text":"You were totally on board with it before. What changed?","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10003,"text":"What changed? I stopped blindly trusting systems that pretend to protect us. I’m not playing that game anymore.","decisionName":"RejectSurveillanceCompletely"},
+{"id":2,"nextState":9901,"text":"I still get why you believe in it. But I can’t stand behind it anymore.","decisionName":"RespectJackDisagreePersonally"},
+{"id":3,"nextState":9901,"text":"Surveillance still has a place, but not unchecked.","decisionName":"SurveillanceWithOversight"},
+{"id":4,"nextState":10003,"text":"Honestly, I just wanted to get Max off my back. Not sure what I really think.","decisionName":"UncertainMotivation"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Wow. So now I’m just a blind follower? That’s what you think of me?","sender":"Jack"},
+{"id":2,"text":"That’s... intense. But at least you’re standing for something.","sender":"Jack"},
+{"id":3,"text":"Okay, so you’re not against everything. That’s something.","sender":"Jack"},
+{"id":4,"text":"So this is more about Max than anything? Got it.","sender":"Jack"}
+]},
+{"type":"conversation","text":"And for what it’s worth, I’m glad you reached out.","sender":"Jack"}
+]}}

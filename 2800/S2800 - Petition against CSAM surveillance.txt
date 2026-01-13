@@ -1,0 +1,11 @@
+[{"title" : "Petition against new surveillance technology",
+"options": [
+{"id": 1,
+"text": "sign",
+"nextState": 2901, 
+"decisionName" : "SignedPetitionAgainstSurveillance"}, 
+{"id": 2,
+"text": "delete",
+"nextState": 2901, 
+"decisionName" : "DeletedPetitionAgainstSurveillance"}],
+"explanation": "This Petition is against the new technology to scan our devices for Child Sexual Abuse Material. We value our privacy! Sign if you agree."}]

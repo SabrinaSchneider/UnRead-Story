@@ -1,0 +1,14 @@
+{"chat" : {"chatName" : "Charlie",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, you know I’m your best friend, right? It’s been a while since we last hung out. Do you have any plans for the weekend? Thought it’d be good to catch up.", "sender" : "Charlie"},
+{"type" : "singleAnswer", "text" : "I’m not sure yet, might have some family stuff going on. Jack hasn’t said anything, so, as usual, I’m just waiting on him to decide.", "sender" : "User"},
+{"type" : "conversation", "text" : "Yeah, I heard that Max and Jack had a pretty intense fight recently.", "sender" : "Charlie"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 140, "text" : "Really? What was it about?", "decisionName" : "askAboutFight"},
+{"id" : 2, "nextState" : 140, "text" : "Well, Jack often texts back late.", "decisionName" : "dismissFight"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "Honestly, I don’t know the details. I’m trying to stay out of it.", "sender": "Charlie"}, 
+{ "id": 2, "text": "Yeah, you’re right, it probably has nothing to do with each other.", "sender": "Charlie"}]},
+{"type" : "conversation", "text" : "Then we’ll see each other next Saturday at Fiona’s pizza night. I’m really looking forward to it. Kim will be back from America by then and will probably have a lot to tell.", "sender" : "Charlie"}
+]}}

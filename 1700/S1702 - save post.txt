@@ -1,0 +1,7 @@
+{"posts" :[
+{"title" : "Amazing show 🎸",
+"sender" : "User",
+"textPost": ["The show was absolutely amazing! So proud of you, Lucy",
+"You owned that stage like a rockstar 🤩🔥 Can’t wait for the next one!",
+"#ProudFriend #YouRock"],
+"author" : "-You"}]}

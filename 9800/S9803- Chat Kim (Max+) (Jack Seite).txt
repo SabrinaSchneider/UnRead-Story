@@ -1,0 +1,21 @@
+{"chat":{"chatName":"Kim","type":"single","messages":[
+{"type":"conversation","text":"Hey, you mentioned there was some family drama. How are you holding up?","sender":"Kim"},
+{"type":"singleAnswer","text":"Yeah, I’m alright. It was about surveillance again. Max totally lost it. I didn't sign the petition.","sender":"User"},
+{"type":"conversation","text":"Ugh, family arguments are the worst. But you know what? In America, people fight hard for what they believe in and then they find common ground. Did you talk to Max since then?","sender":"Kim"},
+{"type":"singleAnswer","text":"Yeah, it’s been rough. We had a short conversation. He wasn’t as angry as before, and he said he’d think about it.","sender":"User"},
+{"type":"conversation","text":"That’s something at least. Maybe it’s time to follow up with him. Want my advice on how to approach him again?","sender":"Kim"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9903,"text":"Sure, tell me.","decisionName":"AcceptAdvice"},
+{"id":2,"nextState":9904,"text":"No thanks, I’ve got this.","decisionName":"DeclineAdvice"},
+{"id":3,"nextState":9904,"text":"Depends. Is it going to be patriotic again? 😅","decisionName":"JokingDeflection"},
+{"id":4,"nextState":9904,"text":"I just want to convince him that surveillance isn't evil.","decisionName":"InsistOnDebate"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Honestly? I’d tell Max how much he means to you and skip the surveillance talk for now.","sender":"Kim"},
+{"id":2,"text":"Alright, your call. But don’t burn bridges you’ll want to cross again.","sender":"Kim"},
+{"id":3,"text":"Haha! Maybe a little patriotism never hurts. But seriously, be sincere.","sender":"Kim"},
+{"id":4,"text":"That might backfire. People shut down when they feel pressured to change their mind.","sender":"Kim"}
+]},
+{"type":"singleAnswer","text":"Thanks, I'll talk to him now.","sender":"User"},
+{"type":"conversation","text":"You got this. Whatever happens, just remember, family isn't about winning arguments.","sender":"Kim"}
+]}}

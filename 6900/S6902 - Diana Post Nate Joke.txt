@@ -1,0 +1,6 @@
+{"posts" : [{"title" : "Quick win of the day: turned a low-engagement task into a high-impact outcome. 🚀",
+"sender" : "Diana",
+"textPost": ["Translation: I finally cleaned my inbox.",
+"#Efficiency #ValueDriven #InboxZero #StrategicMomentum"],
+"author" : "-Diana"}],
+"nextState": 8000}

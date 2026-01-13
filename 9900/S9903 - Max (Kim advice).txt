@@ -1,0 +1,39 @@
+{"chat":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey Max, have you had a chance to think about things?","sender":"User"},
+{"type":"conversation","text":"Hey. Yeah, I’ve been thinking.","sender":"Max"},
+{"type":"conversation","text":"Did you know octopuses taste with their arms? Imagine trying to sort out feelings like that.","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"I just wanted to say, I get why you were upset. Maybe we just see things differently, and that’s okay.","decisionName":"AcceptDifferences"},
+{"id":2,"text":"I really value you, no matter if we always agree or not.","decisionName":"ExpressAppreciation"},
+{"id":3,"text":"Honestly, I still think you overreacted, but I wanted to talk anyway.","decisionName":"ConfrontationWithCare"},
+{"id":4,"text":"I feel like we’re both avoiding the real issue.","decisionName":"PushForClarity"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Hmm. I mean… maybe. But it still bugs me. Like how pandas fake being pregnant to get more food.","sender":"Max"},
+{"id":2,"text":"...Wow. That means more than you think.","sender":"Max"},
+{"id":3,"text":"At least you’re being honest. That’s something.","sender":"Max"},
+{"id":4,"text":"You're not wrong. We’ve been dancing around this.","sender":"Max"}
+]},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"What’s really bugging you? I don’t think we’ve said everything yet.","decisionName":"DigDeeper"},
+{"id":2,"text":"Maybe we just leave it and move on. We’ve talked enough.","decisionName":"LetItGo"},
+{"id":3,"text":"If this matters to you, we need to be clear. No metaphors.","decisionName":"DemandClarity"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"I don’t know. It’s like carrying a backpack full of invisible rocks.","sender":"Max"},
+{"id":2,"text":"Maybe that’s for the best. Not everything needs a perfect ending.","sender":"Max"},
+{"id":3,"text":"Alright, no riddles then. I felt like you weren’t really there when it counted.","sender":"Max"}
+]},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10001,"text":"You’re right. I wasn’t. I’m sorry for that.","decisionName":"TakeResponsibility"},
+{"id":2,"nextState":10006,"text":"That’s not fair. I was doing my best.","decisionName":"DefendActions"},
+{"id":3,"nextState":10001,"text":"We both failed each other a bit, don’t you think?","decisionName":"MutualResponsibility"},
+{"id":4,"nextState":10001,"text":"So what now? Are we done?","decisionName":"ChallengeClosure"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Thanks. That actually means something.","sender":"Max"},
+{"id":2,"text":"Maybe. But your best didn’t feel like enough.","sender":"Max"},
+{"id":3,"text":"Yeah… maybe we both messed up.","sender":"Max"},
+{"id":4,"text":"Don't be ridiculous, we'll always be friends.","sender":"Max"}
+]}
+]}}

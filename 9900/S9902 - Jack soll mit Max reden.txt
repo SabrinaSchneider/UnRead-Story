@@ -1,0 +1,31 @@
+{"chat":{"chatName":"Jack","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey Jack, got a minute to talk?","sender":"User"},
+{"type":"singleAnswer","text":"Jack?","sender":"User"},
+{"type":"conversation","text":"Oh, haven't seen your text at first. What's up?","sender":"Jack"},
+{"type":"singleAnswer","text":"I talked to Max yesterday. We cleared things up.","sender":"User"},
+{"type":"conversation","text":"Really? That’s surprising. How did it go?","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"It actually went pretty well. We both understood each other more.","decisionName":"PositiveOutcome"},
+{"id":2,"text":"It was a bit awkward, but at least we tried to talk.","decisionName":"NeutralAttempt"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Wow, that’s more than I expected. Glad to hear it.","sender":"Jack"},
+{"id":2,"text":"Yeah, sometimes the effort matters more than the result.","sender":"Jack"}
+]},
+{"type":"singleAnswer","text":"I think you should talk to him...","sender":"User"},
+{"type":"conversation","text":"I don't know if that's a good idea.","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10002,"text":"Communication is key. Things won’t improve if you don’t talk.","decisionName":"EncourageCommunication"},
+{"id":2,"nextState":10002,"text":"He’s your cousin. That still means something.","decisionName":"FamilyMatters"},
+{"id":3,"nextState":10002,"text":"Fine, keep ignoring him then. Just don’t complain later.","decisionName":"ConfrontAvoidance"},
+{"id":4,"nextState":10007,"text":"Maybe you’re right. Some space might still be needed.","decisionName":"RespectDistance"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"You might be right. Maybe I’m overthinking it.","sender":"Jack"},
+{"id":2,"text":"Yeah... family doesn’t go away, even if it’s hard.","sender":"Jack"},
+{"id":3,"text":"Wow. Harsh. But fine, I hear you.","sender":"Jack"},
+{"id":4,"text":"Thanks for understanding.","sender":"Jack"}
+]},
+{"type":"conversation","text":"I'll talk to him. But if it goes sideways, I’ll blame you.","sender":"Jack"},
+{"type":"singleAnswer","text":"Deal. Thanks for giving it a shot.","sender":"User"}
+]}}

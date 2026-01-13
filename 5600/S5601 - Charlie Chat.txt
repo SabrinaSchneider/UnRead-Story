@@ -1,0 +1,20 @@
+{"chat" : {"chatName" : "Charlie",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, I thought about using the workaround you published.", "sender" : "Charlie"},
+{"type" : "conversation", "text" : "Kim did it. I feel like if you use it you look really suspicious.", "sender" : "Charlie"},
+{"type" : "conversation", "text" : "I mean I know that she isn't hiding anything.", "sender" : "Charlie"},
+{"type" : "conversation", "text" : "But when you don't have anything to hide... why hide, right?", "sender" : "Charlie"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":5701,"text":"I still think it’s smart to protect ourselves from unnecessary access.","decisionName":"SupportPrivacyProtection"},
+{"id":2,"nextState":5701,"text":"You’re right. Using that workaround does seem shady.","decisionName":"AgreeThatProtectionLooksSuspicious"},
+{"id":3,"nextState":5701,"text":"Depends on what you mean by 'nothing to hide'. We all have private stuff.","decisionName":"ChallengeNothingToHideArgument"},
+{"id":4,"nextState":5701,"text":"I’m just trying to be cautious, not secretive.","decisionName":"ClarifyIntentions"},
+{"id":5,"nextState":5701,"text":"I don’t care what others think. I’d rather be safe.","decisionName":"PrioritizeSafetyOverJudgment"}]},
+{"type":"answer","options":[
+{"id":1,"text":"I get that. Still, it just feels like people assume you’re hiding something.","sender":"Charlie"},
+{"id":2,"text":"Exactly! That’s how it comes across to others.","sender":"Charlie"},
+{"id":3,"text":"Hmm… maybe you're right. I guess everyone values privacy differently.","sender":"Charlie"},
+{"id":4,"text":"Yeah, but it doesn't necessarily appear that way.","sender":"Charlie"},
+{"id":5,"text":"Fair. I just hope being 'safe' doesn’t make things worse.","sender":"Charlie"}]}
+]}}

@@ -1,0 +1,13 @@
+{"newsA": [{"headline" : "Smart Surveillance: A Safer Tomorrow!", 
+"img" : "/imgs/S200/A_City.png", 
+"text": "The government is considering rolling out a groundbreaking technology that tracks criminals using mobile phone data. Advocates say this innovation will revolutionize public safety by identifying threats in real time, preventing crimes before they happen. With cybercriminals becoming increasingly sophisticated, this system could be our best chance to stay one step ahead. Critics argue privacy concerns, but isn’t safety worth the trade-off?"}],
+"newsB": [{"headline" : "Big Brother or Big Problem?", 
+"img" : "/imgs/S200/B_Big Brother.png", 
+"text": "The promise of safety comes with a cost. The government’s plan to monitor mobile phones to catch criminals has sparked fears of a surveillance state. While the system claims to target criminals, who’s to say where the line will be drawn? Could innocent citizens become collateral damage in the quest for control? Supporters may hail it as progress, but is the loss of personal freedom too steep a price to pay?"}],
+"newsC": [{"headline" : "Surveillance Technology: A Step Too Far?", 
+"img" : "/imgs/S200/C_Surveillance Cameras.png", 
+"text": "As the government considers monitoring mobile phones to track criminals, critics warn of the potential for abuse. Once implemented, there’s no turning back. This could open the door to a society where every move is tracked, logged, and judged. Supporters may claim it’s for safety, but at what cost to our freedom? Let’s not trade our privacy for an illusion of security."}],
+"newsD": [{"headline" : "Is Privacy Worth the Risk?", 
+"img" : "/imgs/S200/D_World Trade Center.png", 
+"text": "In an era of rising crime, shouldn’t we use every tool at our disposal to protect citizens? The government’s proposed surveillance technology has its critics, but imagine the lives it could save. Those opposing the measure claim it invades privacy, but are we willing to let fear of surveillance stop us from preventing real-world harm? Perhaps it’s time to reconsider where our priorities lie."}],
+"nextState": 300}

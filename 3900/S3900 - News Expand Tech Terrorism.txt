@@ -1,0 +1,4 @@
+{"news": [{"headline" : "Government Expands Surveillance Technology to Combat Terrorism", 
+"img" : "/imgs/S3900/Ground Zero.png", 
+"text": "The government has announced plans to broaden the use of its surveillance technology originally developed to combat child sexual abuse material (CSAM).The system will now include capabilities aimed at detecting and preventing terrorism-related activities. Officials argue that expanding the technology's scope is essential for national security and public safety. However, critics express concerns about potential overreach and the implications for individual privacy."}],
+"nextState": 4000}

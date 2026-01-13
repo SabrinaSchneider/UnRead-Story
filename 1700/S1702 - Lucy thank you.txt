@@ -1,0 +1,21 @@
+{"chat" : {"chatName" : "Lucy",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, thank you so much for that post. It seriously meant the world to me ❤️", "sender" : "Lucy"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id":1,"nextState":1703,"text":"No big deal! You totally deserved it 😊","save":"false","decisionName":"AppreciativeSupport"},
+{"id":2,"nextState":1703,"text":"I just wanted people to see how awesome you are.","save":"false","decisionName":"EmphasizeValue"},
+{"id":3,"nextState":1703,"text":"Tbh, I wasn’t sure you’d be okay with me posting it.","save":"false","decisionName":"UnsurePost"},
+{"id":4,"nextState":1703,"text":"I thought it might help you see what others see in you.","save":"false","decisionName":"ReflectionPurpose"},
+{"id":5,"nextState":1703,"text":"Honestly, I was just being honest. No need to thank me.","save":"false","decisionName":"MinimizeGesture"}
+]},
+{"type" : "answer", "options": [
+{"id":1,"text":"❤️","sender":"Lucy"},
+{"id":2,"text":"Well, either way, it seriously lifted my spirits.","sender":"Lucy"},
+{"id":3,"text":"Haha, fair enough. I still appreciate it though.","sender":"Lucy"},
+{"id":4,"text":"That actually made me tear up a bit. Thank you.","sender":"Lucy"},
+{"id":5,"text":"You’re too sweet.❤️ ","sender":"Lucy"}
+]},
+{"type" : "conversation", "text" : "I was gonna tell you something else… but now I totally forgot.", "sender" : "Lucy"},
+{"type" : "conversation", "text" : "Well, never mind 😅", "sender" : "Lucy"}
+]}}

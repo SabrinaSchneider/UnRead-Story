@@ -1,0 +1,12 @@
+{"posts" :[{"title" : "🐾Meet Mochi",
+"sender" : "Fiona",
+"textPost": ["This morning, I found him proudly sitting in the bathroom sink. Not weird yet, right?",
+"But he had dragged my toothbrush in there.",
+"And a sock.",
+"And a single cherry tomato. 🍅",
+"I don’t know what kind of ritual he was performing, but I’m 40% sure he summoned something.",
+"Anyway, he’s perfect. I now live in his apartment.",
+"#MochiMovesIn #TinyGoblinEnergy #CatSummoningRitual #NotMyHouseAnymore"],
+"imgPost": "imgs/S4200/cat.png",
+"author" : "-Mochi (Fiona)"}],
+"nextState": 5200}

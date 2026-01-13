@@ -1,0 +1,144 @@
+{"chatA":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"conversation","text":"Wow. Didn’t expect to hear from you.","sender":"Max"},
+{"type":"singleAnswer","text":"Just wanted to talk.","sender":"User"},
+{"type":"conversation","text":"Let me guess...Grandma guilt-tripped you with her legendary cookie eyes? You’re still pro-surveillance though, right?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10006,"text":"Yeah, I am. Not everyone can afford to live in an idealistic bubble. Some things are bigger than personal feelings.","decisionName":"FightMax"},
+{"id":2,"nextState":10006,"text":"I still think you’re wrong about this whole thing.","decisionName":"DisagreesWithMax"},
+{"id":3,"nextState":9803,"text":"I’m not sure where I stand anymore.","decisionName":"UnsureAboutThis"},
+{"id":4,"nextState":9803,"text":"Honestly, I think it’s gone too far. It's a good solution for some crimes, but not all.","decisionName":"JustForSpecificCrimes"},
+{"id":5,"nextState":9803,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":6,"nextState":9803,"text":"I’ve changed my mind. I think you were right","decisionName":"MaxWasRight"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"So you messaged me to say I’m wrong? Classic. Fun fact: pigeons can recognize themselves in mirrors. Humans? Not always emotionally reflective, apparently.","sender":"Max"},
+{"id":2,"text":"Still sounds like blind trust to me.","sender":"Max"},
+{"id":3,"text":"That sounds like someone who’s actually started thinking.","sender":"Max"},
+{"id":4,"text":"That’s what I’ve been trying to say this whole time.","sender":"Max"},
+{"id":5,"text":"Right. Let’s talk, not fight. Grandma would approve.","sender":"Max"},
+{"id":6,"text":"Wow… I didn’t think you’d say that. I’m glad.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Do you even hear yourself? You’re defending surveillance like it’s a superhero. It’s not.","sender":"Max"},
+{"id":2,"text":"We shouldn't just accept being watched.","sender":"Max"},
+{"id":3,"text":"Confusion is human.","sender":"Max"},
+{"id":4,"text":"At least you are no longer at an extreme.","sender":"Max"},
+{"id":5,"text":"Fun fact: sea otters hold hands when they sleep so they don’t drift apart.","sender":"Max"},
+{"id":6,"text":"That’s a huge step. I’m proud of you.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"I don't want to talk to you right now.","sender":"Jack"},
+{"id":2,"text":"I don't want to talk to you right now.","sender":"Max"},
+{"id":3,"text":"I have to think about all of this...","sender":"Max"},
+{"id":4,"text":"I have to think about all of this...", "sender": "Max"},
+{"id":5,"text":"I have to think about all of this...", "sender": "Max"},
+{"id":6,"text":"Glad we talked.","sender":"Max"}
+]}
+]},
+"chatB":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"conversation","text":"Wow. Didn’t expect to hear from you.","sender":"Max"},
+{"type":"singleAnswer","text":"Just wanted to talk.","sender":"User"},
+{"type":"conversation","text":"Let me guess...Grandma guilt-tripped you with her legendary cookie eyes? You’re still pro-surveillance though, right?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10006,"text":"Yeah, I am. Not everyone can afford to live in an idealistic bubble. Some things are bigger than personal feelings.","decisionName":"FightMax"},
+{"id":2,"nextState":10006,"text":"I still think you’re wrong about this whole thing.","decisionName":"DisagreesWithMax"},
+{"id":3,"nextState":9803,"text":"I’m not sure where I stand anymore.","decisionName":"UnsureAboutThis"},
+{"id":4,"nextState":9803,"text":"Honestly, I think it’s gone too far. It's a good solution for some crimes, but not all.","decisionName":"JustForSpecificCrimes"},
+{"id":5,"nextState":9803,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":6,"nextState":9803,"text":"I’ve changed my mind. I think you were right","decisionName":"MaxWasRight"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"So you messaged me to say I’m wrong? Classic. Fun fact: pigeons can recognize themselves in mirrors. Humans? Not always emotionally reflective, apparently.","sender":"Max"},
+{"id":2,"text":"Still sounds like blind trust to me.","sender":"Max"},
+{"id":3,"text":"That sounds like someone who’s actually started thinking.","sender":"Max"},
+{"id":4,"text":"That’s what I’ve been trying to say this whole time.","sender":"Max"},
+{"id":5,"text":"Right. Let’s talk, not fight. Grandma would approve.","sender":"Max"},
+{"id":6,"text":"Wow… I didn’t think you’d say that. I’m glad.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Do you even hear yourself? You’re defending surveillance like it’s a superhero. It’s not.","sender":"Max"},
+{"id":2,"text":"We shouldn't just accept being watched.","sender":"Max"},
+{"id":3,"text":"Confusion is human.","sender":"Max"},
+{"id":4,"text":"At least you are no longer at an extreme.","sender":"Max"},
+{"id":5,"text":"Fun fact: sea otters hold hands when they sleep so they don’t drift apart.","sender":"Max"},
+{"id":6,"text":"That’s a huge step. I’m proud of you.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"I don't want to talk to you right now.","sender":"Jack"},
+{"id":2,"text":"I don't want to talk to you right now.","sender":"Max"},
+{"id":3,"text":"I have to think about all of this...","sender":"Max"},
+{"id":4,"text":"I have to think about all of this...", "sender": "Max"},
+{"id":5,"text":"I have to think about all of this...", "sender": "Max"},
+{"id":6,"text":"Glad we talked.","sender":"Max"}
+]}
+]},
+"chatC":{"chatName":"Jack","type":"group","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"singleAnswer","text":"Hey?","sender":"User"},
+{"type":"singleAnswer","text":"Are you that mad???","sender":"User"},
+{"type":"conversation","text":"Hey, I know I’m late again, but… I’m glad you messaged. 😅","sender":"Jack"},
+{"type":"conversation","text":"Didn’t expect you to come around on the surveillance thing.","sender":"Jack"},
+{"type":"singleAnswer","text":"Grandma keeps telling me life's too short for grudges.","sender":"User"},
+{"type":"conversation","text":"She sounds wise.","sender":"Jack"},
+{"type":"conversation","text":"I’m just glad we’re not fighting over this anymore.","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9804,"text":"You were right. I didn’t want to see it, but now I do.","decisionName":"JackWasRight"},
+{"id":2,"nextState":9804,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":3,"nextState":9804,"text":"Surveillance might help in serious cases, but not all.","decisionName":"JustForSpecificCrimes"},
+{"id":4,"nextState":9804,"text":"Honestly, I still think you’re wrong. I just didn’t want to ghost you forever.","decisionName":"DisagreesWithJack"},
+{"id":5,"nextState":9804,"text":"I’m not sure what to think yet, still processing.","decisionName":"UnsureAboutThis"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Did you just say I was right? Hold on, I need to frame this message.","sender":"Jack"},
+{"id":2,"text":"That’s fair. I’ll take it.","sender":"Jack"},
+{"id":3,"text":"Okay, I guess some skepticism is healthy.","sender":"Jack"},
+{"id":4,"text":"Wow, thanks for the honesty… even if it hurts a bit.","sender":"Jack"},
+{"id":5,"text":"Hmm... I'ts a huge topic.","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Honestly...that means a lot.","sender":"Jack"},
+{"id":2,"text":"Sometimes peace is more important than proving a point.","sender":"Jack"},
+{"id":3,"text":"There’s always a grey zone in these debates.","sender":"Jack"},
+{"id":4,"text":"Still, glad you reached out.","sender":"Jack"},
+{"id":5,"text":"It was hard not to talk to you.","sender":"Jack"}
+]},
+{"type":"singleAnswer","text":"I’m tired of the drama.","sender":"User"},
+{"type":"conversation","text":"Then maybe reach out to Max.","sender":"Jack"},
+{"type":"conversation","text":"From me, there’s no bad blood anymore.","sender":"Jack"}
+]},
+"chatD":{"chatName":"Jack","type":"group","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"singleAnswer","text":"Hey?","sender":"User"},
+{"type":"singleAnswer","text":"Are you that mad???","sender":"User"},
+{"type":"conversation","text":"Hey, I know I’m late again, but… I’m glad you messaged. 😅","sender":"Jack"},
+{"type":"conversation","text":"Didn’t expect you to come around on the surveillance thing.","sender":"Jack"},
+{"type":"singleAnswer","text":"Grandma keeps telling me life's too short for grudges.","sender":"User"},
+{"type":"conversation","text":"She sounds wise.","sender":"Jack"},
+{"type":"conversation","text":"I’m just glad we’re not fighting over this anymore.","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9804,"text":"You were right. I didn’t want to see it, but now I do.","decisionName":"JackWasRight"},
+{"id":2,"nextState":9804,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":3,"nextState":9804,"text":"Surveillance might help in serious cases, but not all.","decisionName":"JustForSpecificCrimes"},
+{"id":4,"nextState":9804,"text":"Honestly, I still think you’re wrong. I just didn’t want to ghost you forever.","decisionName":"DisagreesWithJack"},
+{"id":5,"nextState":9804,"text":"I’m not sure what to think yet, still processing.","decisionName":"UnsureAboutThis"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Did you just say I was right? Hold on, I need to frame this message.","sender":"Jack"},
+{"id":2,"text":"That’s fair. I’ll take it.","sender":"Jack"},
+{"id":3,"text":"Okay, I guess some skepticism is healthy.","sender":"Jack"},
+{"id":4,"text":"Wow, thanks for the honesty… even if it hurts a bit.","sender":"Jack"},
+{"id":5,"text":"Hmm... I'ts a huge topic.","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Honestly...that means a lot.","sender":"Jack"},
+{"id":2,"text":"Sometimes peace is more important than proving a point.","sender":"Jack"},
+{"id":3,"text":"There’s always a grey zone in these debates.","sender":"Jack"},
+{"id":4,"text":"Still, glad you reached out.","sender":"Jack"},
+{"id":5,"text":"It was hard not to talk to you.","sender":"Jack"}
+]},
+{"type":"singleAnswer","text":"I’m tired of the drama.","sender":"User"},
+{"type":"conversation","text":"Then maybe reach out to Max.","sender":"Jack"},
+{"type":"conversation","text":"From me, there’s no bad blood anymore.","sender":"Jack"}
+]}}

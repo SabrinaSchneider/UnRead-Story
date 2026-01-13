@@ -1,0 +1,9 @@
+{"posts" : [{"title" : "🚨 Big News 🚨",
+"sender" : "Lucy",
+"textPost": ["My band is hitting the stage for our very first concert! 🎸🔥",
+"Get ready for an unforgettable night of rock 'n' roll vibes.",
+"We can't wait to see you all there and rock out together! 🤘🎤", 
+"#FirstGig #RockOn #LiveMusic"],
+"imgPost": "imgs/S500/LucyBandPoster.png",
+"author" : "- Lucy"}],
+"nextState": 507}

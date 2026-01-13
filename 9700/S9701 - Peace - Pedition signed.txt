@@ -1,0 +1,134 @@
+{"chatA":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"conversation","text":"Wow. Didn’t expect to hear from you.","sender":"Max"},
+{"type":"conversation","text":"Let me guess... Grandma guilt-tripped you with her legendary cookie eyes?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9801,"text":"Maybe. But I’ve also been thinking. You were kind of right.","decisionName":"MaxWasRight"},
+{"id":2,"nextState":9801,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":3,"nextState":10006,"text":"I still think you’re wrong about this whole thing.","decisionName":"DisagreesWithMax"},
+{"id":4,"nextState":9801,"text":"I’m not sure what to think yet, still processing.","decisionName":"UnsureAboutThis"},
+{"id":5,"nextState":9801, "text" : "It's a good solution some crimes, but not all.", "decisionName" : "JustForSpecificCrimes"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Did you just say I was right? Hold on, I need to frame this message.","sender":"Max"},
+{"id":2,"text":"Peace sounds good. Less stress, more snacks.","sender":"Max"},
+{"id":3,"text":"Well, everyone is entitled to their opinion.","sender":"Max"},
+{"id":4,"text":"Take your time, it’s a lot to think about.","sender":"Max"},
+{"id":5,"text":"At least you are no longer at an extreme.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Also, fun fact: Octopuses have three hearts. One for pumping blood, and two for when they’re being dramatic.","sender":"Max"},
+{"id":2,"text":"Also, fun fact: Bananas are berries. But strawberries aren’t. Nature is drunk.","sender":"Max"},
+{"id":3,"text":"Here’s a random one: Sea cucumbers fight by shooting out their guts. Talk about dramatic exits!","sender":"Max"},
+{"id":4,"text":"Here’s a random one: Sea cucumbers fight by shooting out their guts. Talk about dramatic exits!","sender":"Max"},
+{"id":5,"text":"Also, fun fact: Sloths can hold their breath longer than dolphins. Because evolution said 'why not'.","sender":"Max"}
+]},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"Okay, that was kind of a weird fact.","decisionName":"ReactToWeirdFact"},
+{"id":2,"text":"Honestly, I missed this. Even the weird trivia.","decisionName":"MissedTheTrivia"},
+{"id":3,"text":"I don’t have time for random facts right now.","decisionName":"NotInterestedInTrivia"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Well, that's the definition of fun facts!","sender":"Max"},
+{"id":2,"text":"Missed you too.","sender":"Max"},
+{"id":3,"text":"Fair enough, I’ll save the trivia for later.","sender":"Max"}
+]},
+{"type":"conversation","text":"But hey, thanks for reaching out. You should talk to Jack too.","sender":"Max"}
+]}
+,
+"chatB":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"conversation","text":"Wow. Didn’t expect to hear from you.","sender":"Max"},
+{"type":"conversation","text":"Let me guess... Grandma guilt-tripped you with her legendary cookie eyes?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9801,"text":"Maybe. But I’ve also been thinking. You were kind of right.","decisionName":"MaxWasRight"},
+{"id":2,"nextState":9801,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":3,"nextState":10006,"text":"I still think you’re wrong about this whole thing.","decisionName":"DisagreesWithMax"},
+{"id":4,"nextState":9801,"text":"I’m not sure what to think yet, still processing.","decisionName":"UnsureAboutThis"},
+{"id":5,"nextState":9801, "text" : "It's a good solution some crimes, but not all.", "decisionName" : "JustForSpecificCrimes"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Did you just say I was right? Hold on, I need to frame this message.","sender":"Max"},
+{"id":2,"text":"Peace sounds good. Less stress, more snacks.","sender":"Max"},
+{"id":3,"text":"Well, everyone is entitled to their opinion.","sender":"Max"},
+{"id":4,"text":"Take your time, it’s a lot to think about.","sender":"Max"},
+{"id":5,"text":"At least you are no longer at an extreme.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Also, fun fact: Octopuses have three hearts. One for pumping blood, and two for when they’re being dramatic.","sender":"Max"},
+{"id":2,"text":"Also, fun fact: Bananas are berries. But strawberries aren’t. Nature is drunk.","sender":"Max"},
+{"id":3,"text":"Here’s a random one: Sea cucumbers fight by shooting out their guts. Talk about dramatic exits!","sender":"Max"},
+{"id":4,"text":"Here’s a random one: Sea cucumbers fight by shooting out their guts. Talk about dramatic exits!","sender":"Max"},
+{"id":5,"text":"Also, fun fact: Sloths can hold their breath longer than dolphins. Because evolution said 'why not'.","sender":"Max"}
+]},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"Okay, that was kind of a weird fact.","decisionName":"ReactToWeirdFact"},
+{"id":2,"text":"Honestly, I missed this. Even the weird trivia.","decisionName":"MissedTheTrivia"},
+{"id":3,"text":"I don’t have time for random facts right now.","decisionName":"NotInterestedInTrivia"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Well, that's the definition of fun facts!","sender":"Max"},
+{"id":2,"text":"Missed you too.","sender":"Max"},
+{"id":3,"text":"Fair enough, I’ll save the trivia for later.","sender":"Max"}
+]},
+{"type":"conversation","text":"But hey, thanks for reaching out. You should talk to Jack too.","sender":"Max"}
+]}
+,
+"chatC":{"chatName":"Jack","type":"group","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"singleAnswer","text":"Hey?","sender":"User"},
+{"type":"singleAnswer","text":"Are you that mad???","sender":"User"},
+{"type":"conversation","text":"Hey, sorry I’m late. Again. 😅","sender":"Jack"},
+{"type":"conversation","text":"Look, I’ve been thinking about our last talk. I still think surveillance is necessary. It keeps people safe.","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9802,"text":"I’ve also been thinking. You were kind of right.","decisionName":"JackWasRight"},
+{"id":2,"nextState":9802,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":3,"nextState":9802,"text":"I still think you’re wrong about this whole thing.","decisionName":"DisagreesWithJack"},
+{"id":4,"nextState":9802,"text":"I’m not sure what to think yet, still processing.","decisionName":"UnsureAboutThis"},
+{"id":5,"nextState":9802,"text":"It's a good solution for some crimes, but not all.", "decisionName" : "JustForSpecificCrimes"},
+{"id":6,"nextState":10005,"text":"You’re always late, and now you’re defending a system that watches everyone? Seriously, Jack?", "decisionName" : "FightJack"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Thank you, Max won't like that","sender":"Jack"},
+{"id":2,"text":"I appreciate that. I know we don’t see eye to eye, but… I respect that you care so much. Especially about grandma.","sender":"Jack"},
+{"id":3,"text":"I see your point. It's not an easy balance, but safety has to come first sometimes.","sender":"Jack"},
+{"id":4,"text":"I get where you’re coming from. But all crimes are bad.","sender":"Jack"},
+{"id":5,"text":"Wow, okay. So we're going there. I'm trying to have a real conversation, and you’re just throwing shade?", "sender": "Jack"},
+{"id":6,"text":"Wow, okay. So we're going there. I'm trying to have a real conversation, and you’re just throwing shade?","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Glad we talked.","sender":"Jack"},
+{"id":2,"text":"I have to think about all of this...","sender":"Jack"},
+{"id":3,"text":"I have to think about all of this...","sender":"Jack"},
+{"id":4,"text":"I have to think about all of this...", "sender": "Jack"},
+{"id":5,"text":"I have to think about all of this...", "sender": "Jack"},
+{"id":6,"text":"I don't want to talk to you right now.","sender":"Jack"}
+]}
+]},
+"chatD":{"chatName":"Jack","type":"group","messages":[
+{"type":"singleAnswer","text":"Hey","sender":"User"},
+{"type":"singleAnswer","text":"Hey?","sender":"User"},
+{"type":"singleAnswer","text":"Are you that mad???","sender":"User"},
+{"type":"conversation","text":"Hey, sorry I’m late. Again. 😅","sender":"Jack"},
+{"type":"conversation","text":"Look, I’ve been thinking about our last talk. I still think surveillance is necessary. It keeps people safe.","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9802,"text":"I’ve also been thinking. You were kind of right.","decisionName":"JackWasRight"},
+{"id":2,"nextState":9802,"text":"I didn’t come to argue. Just wanted to make peace.","decisionName":"WantsPeace"},
+{"id":3,"nextState":9802,"text":"I still think you’re wrong about this whole thing.","decisionName":"DisagreesWithJack"},
+{"id":4,"nextState":9802,"text":"I’m not sure what to think yet, still processing.","decisionName":"UnsureAboutThis"},
+{"id":5,"nextState":9802, "text" : "It's a good solution for some crimes, but not all.", "decisionName" : "JustForSpecificCrimes"},
+{"id":6,"nextState":10005, "text" : "You’re always late, and now you’re defending a system that watches everyone? Seriously, Jack?", "decisionName" : "FightJack"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Thank you, Max won't like that","sender":"Jack"},
+{"id":2,"text":"I appreciate that. I know we don’t see eye to eye, but… I respect that you care so much. Especially about grandma.","sender":"Jack"},
+{"id":3,"text":"I see your point. It's not an easy balance, but safety has to come first sometimes.","sender":"Jack"},
+{"id":4,"text":"I get where you’re coming from. But all crimes are bad.","sender":"Jack"},
+{"id":5,"text":"Wow, okay. So we're going there. I'm trying to have a real conversation, and you’re just throwing shade?", "sender": "Jack"},
+{"id":6,"text":"Wow, okay. So we're going there. I'm trying to have a real conversation, and you’re just throwing shade?","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Glad we talked.","sender":"Jack"},
+{"id":2,"text":"I have to think about all of this...","sender":"Jack"},
+{"id":3,"text":"I have to think about all of this...","sender":"Jack"},
+{"id":4,"text":"I have to think about all of this...", "sender": "Jack"},
+{"id":5,"text":"I have to think about all of this...", "sender": "Jack"},
+{"id":6,"text":"I don't want to talk to you right now.","sender":"Jack"}
+]}
+]}}

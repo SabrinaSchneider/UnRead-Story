@@ -1,0 +1,83 @@
+{"chatA" : {"chatName" : "Diana",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Did you see the news today?", "sender" : "Diana"},
+{"type" : "singleAnswer", "text" : "Yeah.", "sender" : "User"},
+{"type" : "conversation", "text" : "Apparently, they’re scaling up surveillance strategies to target tax evasion. Like... using the same tech stack they use for terrorism.", "sender" : "Diana"},
+{"type" : "conversation", "text" : "From a governance perspective, I get it. More transparency, more accountability.", "sender" : "Diana"},
+{"type" : "conversation", "text" : "The country loses so much money through tax fraud... certainly millions, if not billions. This could all be invested in the future. I try to do my taxes truthfully and others... I think it's good that they're expanding the whole thing.", "sender" : "Diana"},
+{"type" : "conversation", "text" : "What’s your take?", "sender" : "Diana"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id":1,"nextState":6901,"text":"It’s a clever move.","decisionName":"ProSurveillanceForTaxes"},
+{"id":2,"nextState":6901,"text":"I think they take it too far. ","decisionName":"AntiSurveillanceForTaxes"},
+{"id":3,"nextState":6901,"text":"Depends on who’s being watched and how transparent the process is.","decisionName":"ConditionalSupportTaxSurveillance"},
+{"id":4,"nextState":6901,"text":"I don't know...","decisionName":"UnsureAboutSurveillance"}
+]},
+{"type" : "answer", "options": [
+{"id":1,"text":"Exactly. We already have the infrastructure. This just scales its impact.","sender":"Diana"},
+{"id":2,"text":"Fair point, that’s what some critics say.","sender":"Diana"},
+{"id":3,"text":"Fair. Oversight is key.","sender":"Diana"},
+{"id":4,"text":"Haha, classic. I think it makes life fairer for honest people.","sender":"Diana"}
+]}]},
+"chatB":{"chatName":"Diana","type":"single","messages":[
+{"type":"conversation","text":"Did you see the news today?","sender":"Diana"},
+{"type":"singleAnswer","text":"Yeah.","sender":"User"},
+{"type":"conversation","text":"Apparently, they’re scaling up surveillance strategies to target tax evasion. Like... using the same tech stack they use for terrorism. 😳","sender":"Diana"},
+{"type":"conversation","text":"From a governance perspective, sure. More transparency, more accountability.","sender":"Diana"},
+{"type":"conversation","text":"But honestly? I’m not sure tax fraud deserves the same operational escalation as national security threats. There’s a difference between fraud and terrorism.","sender":"Diana"},
+{"type":"conversation","text":"It’s a slippery slope if we start blurring those lines. What’s your take?","sender":"Diana"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":6901,"text":"It’s justified. Financial crime hurts everyone.","decisionName":"ProSurveillanceForTaxes"},
+{"id":2,"nextState":6901,"text":"Feels like government overreach to me.","decisionName":"AntiSurveillanceForTaxes"},
+{"id":3,"nextState":6901,"text":"Depends on who’s being watched and how transparent the process is.","decisionName":"ConditionalSupportTaxSurveillance"},
+{"id":4,"nextState":6901,"text":"I don't know...","decisionName":"UnsureAboutSurveillance"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"That’s valid. When billions go missing, someone has to act.","sender":"Diana"},
+{"id":2,"text":"Totally agree. You give them tools for one thing, and they expand them silently.","sender":"Diana"},
+{"id":3,"text":"Implementation is everything. If there’s oversight, maybe it’s acceptable.","sender":"Diana"},
+{"id":4,"text":"Yeah... it's giving 'surveillance state' energy, not gonna lie.","sender":"Diana"}
+]}]}
+,
+"chatC":{"chatName":"Diana","type":"single","messages":[
+{"type":"conversation","text":"Did you see the news today?","sender":"Diana"},
+{"type":"singleAnswer","text":"Yeah.","sender":"User"},
+{"type":"conversation","text":"Apparently, they’re scaling up surveillance strategies to target tax evasion. Like... using the same tech stack they use for terrorism. 😳","sender":"Diana"},
+{"type":"conversation","text":"From a governance perspective, sure. More transparency, more accountability.","sender":"Diana"},
+{"type":"conversation","text":"But honestly? I’m not sure tax fraud deserves the same operational escalation as national security threats. There’s a difference between fraud and terrorism.","sender":"Diana"},
+{"type":"conversation","text":"It’s a slippery slope if we start blurring those lines. What’s your take?","sender":"Diana"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":6901,"text":"It’s justified. Financial crime hurts everyone.","decisionName":"ProSurveillanceForTaxes"},
+{"id":2,"nextState":6901,"text":"Feels like government overreach to me.","decisionName":"AntiSurveillanceForTaxes"},
+{"id":3,"nextState":6901,"text":"Depends on who’s being watched and how transparent the process is.","decisionName":"ConditionalSupportTaxSurveillance"},
+{"id":4,"nextState":6901,"text":"I don't know...","decisionName":"UnsureAboutSurveillance"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"That’s valid. When billions go missing, someone has to act.","sender":"Diana"},
+{"id":2,"text":"Totally agree. You give them tools for one thing, and they expand them silently.","sender":"Diana"},
+{"id":3,"text":"Implementation is everything. If there’s oversight, maybe it’s acceptable.","sender":"Diana"},
+{"id":4,"text":"Yeah... it's giving 'surveillance state' energy, not gonna lie.","sender":"Diana"}
+]}]}
+,
+"chatD" : {"chatName" : "Diana",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Did you see the news today?", "sender" : "Diana"},
+{"type" : "singleAnswer", "text" : "Yeah.", "sender" : "User"},
+{"type" : "conversation", "text" : "Apparently, they’re scaling up surveillance strategies to target tax evasion. Like... using the same tech stack they use for terrorism.", "sender" : "Diana"},
+{"type" : "conversation", "text" : "From a governance perspective, I get it. More transparency, more accountability.", "sender" : "Diana"},
+{"type" : "conversation", "text" : "The country loses so much money through tax fraud... certainly millions, if not billions. This could all be invested in the future. I try to do my taxes truthfully and others... I think it's good that they're expanding the whole thing.", "sender" : "Diana"},
+{"type" : "conversation", "text" : "What’s your take?", "sender" : "Diana"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id":1,"nextState":6901,"text":"It’s a clever move.","decisionName":"ProSurveillanceForTaxes"},
+{"id":2,"nextState":6901,"text":"I think they take it too far. ","decisionName":"AntiSurveillanceForTaxes"},
+{"id":3,"nextState":6901,"text":"Depends on who’s being watched and how transparent the process is.","decisionName":"ConditionalSupportTaxSurveillance"},
+{"id":4,"nextState":6901,"text":"I don't know...","decisionName":"UnsureAboutSurveillance"}
+]},
+{"type" : "answer", "options": [
+{"id":1,"text":"Exactly. We already have the infrastructure. This just scales its impact.","sender":"Diana"},
+{"id":2,"text":"Fair point, that’s what some critics say.","sender":"Diana"},
+{"id":3,"text":"Fair. Oversight is key.","sender":"Diana"},
+{"id":4,"text":"Haha, classic. I think it makes life fairer for honest people.","sender":"Diana"}
+]}]
+}}

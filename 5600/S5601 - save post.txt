@@ -1,0 +1,10 @@
+{"posts" :[
+{"title" : "Here is a workaround for the new surveillance tech",
+"sender" : "User",
+"textPost": [
+"Hey guys, i feel like everyone should be able to protect themselves. There is a workaround against the new surveillance technology of the government.",
+"Step 1: Turn Off Cloud Sync.", 
+"Step 2: Enable encryption",
+" Step 3: use a password to lock your apps.",
+"Install App : www.download/secrurityApp.com"],
+"author" : "-anonymous"}]}

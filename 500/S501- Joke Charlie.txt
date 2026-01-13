@@ -1,0 +1,13 @@
+{"chat" : {"chatName" : "Charlie",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "What do you call a bear with no teeth?", "sender" : "Charlie"},
+{"type" : "singleAnswer", "text" : "I have no idea", "sender" : "User"},
+{"type" : "conversation", "text" : " A gummy bear! 😄", "sender" : "Charlie"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 502, "text" : "That was the worst joke ever 😂", "decisionName" : "GoodJoke"},
+{"id" : 2, "nextState" : 502, "text" :  "OMG, that's so funny 😂", "decisionName" : "BadJoke"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "I know 😂", "sender": "Charlie"}, 
+{"id": 2, "text": "Glad you appreciated it 😂", "sender": "Charlie"}]}]
+}}

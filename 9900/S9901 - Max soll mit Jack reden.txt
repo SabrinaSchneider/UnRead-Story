@@ -1,0 +1,29 @@
+{"chat":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey Max, got a minute to talk?","sender":"User"},
+{"type":"conversation","text":"Of course! Did you know a cockroach can live for weeks without its head? Crazy, right? What’s on your mind?","sender":"Max"},
+{"type":"singleAnswer","text":"I talked to Jack yesterday. We cleared things up.","sender":"User"},
+{"type":"conversation","text":"Really? That’s surprising. Like how a shrimp’s heart is in its head! How did it go?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"It actually went pretty well. We both understood each other more.","decisionName":"PositiveReflection"},
+{"id":2,"text":"It was a bit awkward, but at least we tried to talk.","decisionName":"MixedOutcome"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Wow, I didn’t expect that. Glad it was constructive.","sender":"Max"},
+{"id":2,"text":"Yeah, first steps matter. Better than silence.","sender":"Max"}
+]},
+{"type":"singleAnswer","text":"I think you should talk to him...","sender":"User"},
+{"type":"conversation","text":"I don't know if that's a good idea.","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10001,"text":"Communication is key. Things won’t change unless we talk.","decisionName":"PromoteDialogue"},
+{"id":2,"nextState":10001,"text":"He’s your cousin. That has to mean something.","decisionName":"AppealToFamily"},
+{"id":3,"nextState":10007,"text":"Fine, then keep avoiding him forever. That’s your choice.","decisionName":"ChallengeAvoidance"},
+{"id":4,"nextState":10007,"text":"Maybe you're right. Some wounds just take time.","decisionName":"ValidateHesitation"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"You make a fair point. Maybe I’ll think about it.","sender":"Max"},
+{"id":2,"text":"That’s true… blood does matter. Even if it’s messy.","sender":"Max"},
+{"id":3,"text":"Wow. Okay, no need to be dramatic.","sender":"Max"},
+{"id":4,"text":"Thanks. I appreciate that you’re not pushing me too hard.","sender":"Max"}
+]},
+{"type":"conversation","text":"Have to go.","sender":"Max"}
+]}}

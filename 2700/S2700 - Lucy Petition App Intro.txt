@@ -1,0 +1,17 @@
+{"chat" : {"chatName" : "Lucy",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "OMG, have u seen this new app? It’s called Petition, and people are using it to vote against that surveillance thing the government wants to roll out. 💀", "sender" : "Lucy"},
+{"type" : "singleAnswer", "text" : "Wait, seriously? What’s the app about?", "sender" : "User"},
+{"type" : "conversation", "text" : "You can scroll through petitions and either sign them if you agree or delete them.", "sender" : "Lucy"},
+{"type" : "conversation", "text" : "You should check it out", "sender" : "Lucy"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id": 1, "nextState": 2800, "text": "I'll download it and have a look.","decisionName": "SupportAction"},
+{"id": 2, "nextState": 2800, "text": "I'll download it, but I’m not really into political stuff.", "decisionName": "DismissAction"},
+{"id": 3, "nextState": 2800, "text": "I'll download it, you really never change, do you? Always the rebel with a cause.", "decisionName": "AcknowledgeRebellion"}]},
+{"type": "answer",
+"options": [
+{"id": 1, "text": "Yesss, that’s what I wanted to hear 😎✊", "sender": "Lucy"},
+{"id": 2, "text": "Typical you 🙄 Still love you though.", "sender": "Lucy"},
+{"id": 3, "text": "Haha you know me 😇 Someone’s gotta question authority, right?", "sender": "Lucy"}
+]}]}}

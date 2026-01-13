@@ -1,0 +1,32 @@
+{"settings" : [
+{"title" : "Cloud Sync",
+"options": [
+{"id": 1,
+"text": "On", 
+"decisionName" : "CloudSyncOn"}, 
+{"id": 2,
+"text": "Off",
+"decisionName" : "CloudSyncOff"}],
+"explanation": "Turn on/off your Cloud Synchronization. If turned off, you can't access all of your data on all your devices and your data won't be saved to restore.",
+"functionality": "decision"},
+{"title" : "Encryption",
+"options": [
+{"id": 1,
+"text": "Enable",
+"decisionName" : "EncryptionOn"}, 
+{"id": 2,
+"text": "Disable",
+"decisionName" : "EncryptionOff"}],
+"explanation": "Enable/Disable Encryption. If turned on loading data can take loger and it can be more difficult to restore your data.",
+"functionality": "decision"},
+{"title" : "Set Account Password for locking Apps",
+"options": [
+{"id": 1,
+"text": "Use Password",
+"decisionName" : "PasswordForLockingAppsOn"}, 
+{"id": 2,
+"text": "No Password",
+"decisionName" : "PasswordForLockingAppsOff"}],
+"explanation": "If turned on, every App will need a password for opening.",
+"functionality": "decision"}],
+"nextState": 5500}

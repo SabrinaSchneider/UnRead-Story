@@ -1,0 +1,100 @@
+{"chatA":{"chatName":"Fiona","type":"single","messages":[
+{"type":"conversation","text":"Hey, did you read about the news today?", "sender":"Fiona"},
+{"type":"choice","sender":"User","options":[
+{"id":1,"text":"You mean the thing about scanning for drug use and trafficking?"},
+{"id":2,"text":"The one about a cat running for president?"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Yes, that one. It’s all over the news.","sender":"Fiona"},
+{"id":2,"text":"Haha, no! The one about to tracking down drug use and trafficking.","sender":"Fiona"}]},
+{"type":"conversation","text":"They're expanding the tech to flag people involved in drug use. It’s supposed to stop dealers early on.","sender":"Fiona"},
+{"type":"conversation","text":"Honestly, I’m all for it. I’ve seen what drugs can do to people. Even so-called 'soft' drugs can ruin lives.","sender":"Fiona"},
+{"type":"conversation","text":"Remember that party last year? Lucy took a hit from someone’s joint. I pretended not to notice, but it really bothered me.","sender":"Fiona"},
+{"type":"conversation","text":"This kind of tech could actually help. Maybe if people knew they’d get flagged, they’d think twice.","sender":"Fiona"},
+{"type":"conversation","text":"What’s your take? I know not everyone agrees with this kind of thing.","sender":"Fiona"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":5300,"text":"Honestly, I think it's a good thing.","decisionName":"SupportsExpandedDrugSurveillance"},
+{"id":2,"nextState":5300,"text":"It definitely goes too far.","decisionName":"OpposesSurveillanceExpansionDrugs"},
+{"id":3,"nextState":5300,"text":"I'm not sure yet.","decisionName":"UndecidedOnDrugSurveillance"},
+{"id":4,"nextState":5300,"text":"Depends. If it’s only for serious trafficking, maybe.","decisionName":"SupportsLimitedSurveillanceDrugs"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Exactly! People forget the bigger picture. Too many people treat drugs like they’re harmless.","sender":"Fiona"},
+{"id":2,"text":"I get that. But where do we draw the line if we let things slide? What if Lucy had driven home that night?","sender":"Fiona"},
+{"id":3,"text":"Yeah, I get that. Not everything's black and white.","sender":"Fiona"},
+{"id":4,"text":"Too many people treat drugs like they’re harmless. What if Lucy had driven home that night?","sender":"Fiona"}]},
+{"type":"conversation","text":"Thanks for sharing your point of view.","sender":"Fiona"}
+]},
+"chatB":{"chatName":"Kim","type":"single","messages":[
+{"type":"conversation","text":"Hey, did you read that article going around?","sender":"Kim"},
+{"type":"choice","sender":"User","options":[
+{"id":1,"text":"The one about expanding surveillance for drug tracking?"},
+{"id":2,"text":"The one about the squirrel stealing donuts?"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Yes, that one about drug surveillance.","sender":"Kim"},
+{"id":2,"text":"Haha no, but now I want donuts. I meant the drug tracking one.","sender":"Kim"}]},
+{"type":"conversation","text":"They're planning to use more tech to catch drug users and dealers. Like, way more.","sender":"Kim"},
+{"type":"conversation","text":"It feels like they’re watching everyone, just to find a few.","sender":"Kim"},
+{"type":"conversation","text":"Do you remember Lucy trying a joint once at that party?","sender":"Kim"},
+{"type":"conversation","text":"Now stuff like that could get flagged. That seems extreme, no?","sender":"Kim"},
+{"type":"conversation","text":"I get wanting to stop drug abuse, but this level of monitoring creeps me out.","sender":"Kim"},
+{"type":"conversation","text":"What do you think about it all?","sender":"Kim"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":5300,"text":"Honestly, I think it's a good thing.","decisionName":"SupportsExpandedDrugSurveillance"},
+{"id":2,"nextState":5300,"text":"It definitely goes too far.","decisionName":"OpposesSurveillanceExpansionDrugs"},
+{"id":3,"nextState":5300,"text":"I'm not sure yet.","decisionName":"UndecidedOnDrugSurveillance"},
+{"id":4,"nextState":5300,"text":"Depends. If it’s only for serious trafficking, maybe.","decisionName":"SupportsLimitedSurveillanceDrugs"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Whoa. Didn’t expect you to be on board with this.","sender":"Kim"},
+{"id":2,"text":"Right? It’s like punishing everyone just in case.","sender":"Kim"},
+{"id":3,"text":"Yeah, I get that. Not everything's black and white.","sender":"Kim"},
+{"id":4,"text":"True... but I don't trust them to stop at 'serious'.","sender":"Kim"}]},
+{"type":"conversation","text":"Thanks for sharing your point of view.","sender":"Kim"}]},
+"chatC":{"chatName":"Kim","type":"single","messages":[
+{"type":"conversation","text":"Hey, did you read that article going around?","sender":"Kim"},
+{"type":"choice","sender":"User","options":[
+{"id":1,"text":"The one about expanding surveillance for drug tracking?"},
+{"id":2,"text":"The one about the squirrel stealing donuts?"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Yes, that one about drug surveillance.","sender":"Kim"},
+{"id":2,"text":"Haha no, but now I want donuts. I meant the drug tracking one.","sender":"Kim"}]},
+{"type":"conversation","text":"They're planning to use more tech to catch drug users and dealers. Like, way more.","sender":"Kim"},
+{"type":"conversation","text":"It feels like they’re watching everyone, just to find a few.","sender":"Kim"},
+{"type":"conversation","text":"Do you remember Lucy trying a joint once at that party?","sender":"Kim"},
+{"type":"conversation","text":"Now stuff like that could get flagged. That seems extreme, no?","sender":"Kim"},
+{"type":"conversation","text":"I get wanting to stop drug abuse, but this level of monitoring creeps me out.","sender":"Kim"},
+{"type":"conversation","text":"What do you think about it all?","sender":"Kim"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":5300,"text":"Honestly, I think it's a good thing.","decisionName":"SupportsExpandedDrugSurveillance"},
+{"id":2,"nextState":5300,"text":"It definitely goes too far.","decisionName":"OpposesSurveillanceExpansionDrugs"},
+{"id":3,"nextState":5300,"text":"I'm not sure yet.","decisionName":"UndecidedOnDrugSurveillance"},
+{"id":4,"nextState":5300,"text":"Depends. If it’s only for serious trafficking, maybe.","decisionName":"SupportsLimitedSurveillanceDrugs"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Whoa. Didn’t expect you to be on board with this.","sender":"Kim"},
+{"id":2,"text":"Right? It’s like punishing everyone just in case.","sender":"Kim"},
+{"id":3,"text":"Yeah, I get that. Not everything's black and white.","sender":"Kim"},
+{"id":4,"text":"True... but I don't trust them to stop at 'serious'.","sender":"Kim"}]},
+{"type":"conversation","text":"Thanks for sharing your point of view.","sender":"Kim"}]},
+"chatD":{"chatName":"Fiona","type":"single","messages":[
+{"type":"conversation","text":"Hey, did you read about the news today?", "sender":"Fiona"},
+{"type":"choice","sender":"User","options":[
+{"id":1,"text":"You mean the thing about scanning for drug use and trafficking?"},
+{"id":2,"text":"The one about a cat running for president?"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Yes, that one. It’s all over the news.","sender":"Fiona"},
+{"id":2,"text":"Haha, no! The one about to tracking down drug use and trafficking.","sender":"Fiona"}]},
+{"type":"conversation","text":"They're expanding the tech to flag people involved in drug use. It’s supposed to stop dealers early on.","sender":"Fiona"},
+{"type":"conversation","text":"Honestly, I’m all for it. I’ve seen what drugs can do to people. Even so-called 'soft' drugs can ruin lives.","sender":"Fiona"},
+{"type":"conversation","text":"Remember that party last year? Lucy took a hit from someone’s joint. I pretended not to notice, but it really bothered me.","sender":"Fiona"},
+{"type":"conversation","text":"This kind of tech could actually help. Maybe if people knew they’d get flagged, they’d think twice.","sender":"Fiona"},
+{"type":"conversation","text":"What’s your take? I know not everyone agrees with this kind of thing.","sender":"Fiona"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":5300,"text":"Honestly, I think it's a good thing.","decisionName":"SupportsExpandedDrugSurveillance"},
+{"id":2,"nextState":5300,"text":"It definitely goes too far.","decisionName":"OpposesSurveillanceExpansionDrugs"},
+{"id":3,"nextState":5300,"text":"I'm not sure yet.","decisionName":"UndecidedOnDrugSurveillance"},
+{"id":4,"nextState":5300,"text":"Depends. If it’s only for serious trafficking, maybe.","decisionName":"SupportsLimitedSurveillanceDrugs"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Exactly! People forget the bigger picture. Too many people treat drugs like they’re harmless.","sender":"Fiona"},
+{"id":2,"text":"I get that. But where do we draw the line if we let things slide? What if Lucy had driven home that night?","sender":"Fiona"},
+{"id":3,"text":"Yeah, I get that. Not everything's black and white.","sender":"Fiona"},
+{"id":4,"text":"Too many people treat drugs like they’re harmless. What if Lucy had driven home that night?","sender":"Fiona"}]},
+{"type":"conversation","text":"Thanks for sharing your point of view.","sender":"Fiona"}
+]}}

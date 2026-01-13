@@ -1,0 +1,4 @@
+{"news": [{"headline" : "Government Expands Surveillance Technology to Prevent Drug Trafficking and Use", 
+"img" : "/imgs/S5200/Pills.png", 
+"text": "The government has further extended its surveillance technology, initially designed to combat child sexual abuse material, to now target drug trafficking and drug use. This move follows a previous expansion that included efforts to prevent terrorism. The new updates to the system are raising privacy concerns as they enable authorities to monitor a broader range of criminal activities. While proponents argue that the enhanced technology will aid in fighting crime, critics warn about the potential for excessive control and a loss of personal freedoms."}],
+"nextState": 5201}

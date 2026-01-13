@@ -1,0 +1,4 @@
+{"news": [{"headline" : "Government Rolls Out On-Device Content Monitoring to Protect Our Children", 
+"img" : "/imgs/S1500/Protect Children.png", 
+"text": "The government has announced the rollout of a new on-device content monitoring system aimed at tackling serious crimes such as the spread of child sexual abuse material. This scan is set to happen before messages are sent or files are uploaded. Officials argue the system will enhance public safety while maintaining encryption for most users. Officials claim that the technology will significantly improve public safety. Critics, however, argue that this may come at the cost of individual privacy and could pave the way for misuse and lead to mass surveillance. The policy is expected to face heated debate in the coming weeks as activists raise concerns about overreach."}
+],"nextState": 1600}

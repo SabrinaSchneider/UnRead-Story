@@ -1,0 +1,22 @@
+{"chat":{"chatName":"Fiona","type":"single","messages":[
+{"type":"conversation","text":"Hey, you mentioned there was some family drama. How are you holding up?","sender":"Fiona"},
+{"type":"singleAnswer","text":"Yeah… I had a fight with Jack. About surveillance stuff. He got really mad.","sender":"User"},
+{"type":"conversation","text":"Oh no… I’m sorry to hear that. 😿 Did you talk to Jack since then?","sender":"Fiona"},
+{"type":"singleAnswer","text":"We had a short talk after. He wasn’t as angry anymore. Said he’ll think about it.","sender":"User"},
+{"type":"conversation","text":"That’s already something. People cool down eventually, like when my cat Mochi finally stopped hissing at the vacuum cleaner. 😼","sender":"Fiona"},
+{"type":"conversation","text":"Want some advice?","sender":"Fiona"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9905,"text":"Sure, I’d appreciate that.","decisionName":"AcceptAdvice"},
+{"id":2,"nextState":9906,"text":"No, I think I’ve got to figure this one out myself.","decisionName":"DeclineAdvice"},
+{"id":3,"nextState":9905,"text":"Only if it involves cats. 😺","decisionName":"HumorousDeflection"},
+{"id":4,"nextState":9906,"text":"Honestly, I’m more confused after talking to Jack.","decisionName":"ExpressConfusion"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Okay. Try to speak from your feelings, not just your arguments.","sender":"Fiona"},
+{"id":2,"text":"That’s totally valid.","sender":"Fiona"},
+{"id":3,"text":"Mochi says emotional honesty is the way to go. 🐾","sender":"Fiona"},
+{"id":4,"text":"If you're unsure, start by writing down what you’d say.","sender":"Fiona"}
+]},
+{"type":"singleAnswer","text":"Thanks. I think I’ll talk to him again.","sender":"User"},
+{"type":"conversation","text":"That’s the spirit. Let me know how it goes. Mochi’s invested now. 😸","sender":"Fiona"}
+]}}

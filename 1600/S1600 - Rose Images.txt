@@ -1,0 +1,22 @@
+{"chat" : {"chatName" : "Rose",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hello my dear! 🌹 I just talked to Henry next door, and now I’m so worried. 😟 He says with these new rules, I could end up in jail! 🚨 Just because I have photos of you and your cousins on my phone ? 😔 Love, Grandma 💕🧁🍰", "sender" : "Rose"},
+{"type" : "conversation", "text" : "You don’t think they’ll take my phone, do you? 📱And I’ve done nothing wrong, right? Just a proud grandma showing off my grandkids! 🥰 Love, Grandma 💕", "sender" : "Rose"},
+{"type" : "conversation", "text" : "Henry said they’ll be spying on everyone and looking for anything they don’t like. 👀😰 He really scared me. Maybe he’s just misunderstood something? Love, Grandma 💕", "sender" : "Rose"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id":1,"nextState":1601,"text":"Henry’s got a point. We should be a bit more careful. I’ll look into it.","decisionName":"AgreeWithHenry"},
+{"id":2,"nextState":1601,"text":"Sounds like Henry is getting a little paranoid.","decisionName":"DisagreeWithHenry"},
+{"id":3,"nextState":1601,"text":"Honestly, I don’t trust any of it.","decisionName":"DistrustGovernment"},
+{"id":4,"nextState":1601,"text":"Well, even if it’s true, if you haven’t done anything wrong, you have nothing to worry about.","decisionName":"TrustIfInnocent"}
+]},
+{"type": "answer", "options": [
+{"id":1,"text":"That makes sense, dear. Maybe we should go through my phone and see what I should delete. Just in case. 📲 Love, Grandma 💕","sender":"Rose"},
+{"id":2,"text":"You’re probably right. I do get anxious easily. Henry can be a bit dramatic too. I’ll try not to worry. Love, Grandma 💕","sender":"Rose"},
+{"id":3,"text":"Oh my! 😟 I does sound more like control than safety. You think it’s really that bad? Love, Grandma 💕","sender":"Rose"},
+{"id":4,"text":"Yes, that’s true. I’m just being silly, aren’t I? Thank you, sweetie. You always help me feel better. 💗 Love, Grandma 💕","sender":"Rose"}
+]},
+{"type" : "conversation", "text" : "Could you do me one more favor? Maybe you could talk to Henry and calm him down. ☎️ He’s convinced they’re coming for everyone. 😱 Poor man can’t even sleep, he said! Love, Grandma 💕", "sender" : "Rose"},
+{"type" : "singleAnswer", "text" : "Sure, he can call me.", "sender" : "User"},
+{"type" : "conversation", "text" : "You’re such a sweetheart. 🥰 Thank you. Love, Grandma 💕", "sender" : "Rose"}
+]}}

@@ -1,0 +1,12 @@
+[{"title" : "New Petition against new surveillance technology against Terrorism",
+"options": [
+{"id": 1,
+"text": "sign",
+"nextState": 4201, 
+"decisionName" : "SignedPetitionAgainstSurveillanceAgainstTerrorism"}, 
+{"id": 2,
+"text": "delete",
+ "nextState": 4201, 
+ "decisionName" : "DeletedPetitionAgainstSurveillanceAgainstTerrorism"}],
+"explanation": "This Petition is against the new technology to scan our devices for Terrorism. We aren't terrorists, we just value our privacy! Sign if you agree."
+}]

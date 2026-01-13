@@ -1,0 +1,24 @@
+{"chat":{"chatName":"Charlie","type":"single","messages":[
+{"type":"conversation","text":"Hey... I honestly don't know what to do anymore. Things have gotten so out of hand since the attack. This constant surveillance on our phones... it's like we have no privacy left. I mean, I get that it's for security.","sender":"Charlie"},
+{"type":"conversation","text":"The whole idea of being constantly watched is unsettling.","sender":"Charlie"},
+{"type":"conversation","text":"It’s like I have to watch everything I say or do now. Every time I send a message, I start second-guessing myself. What if something I say gets flagged? What if my words are misinterpreted?","sender":"Charlie"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"Sounds exhausting.","decisionName":"EmpathizesWithStress"},
+{"id":2,"text":"You shouldn't worry that much.","decisionName":"DownplaysConcerns"},
+{"id":3,"text":"Maybe you're just overthinking it.","decisionName":"QuestionsValidityOfWorry"}
+]},
+{"type":"conversation","text":"Even if it's just something small. I have to constantly think about how what I say might be seen by someone watching. I feel like I'm not myself anymore. Probably shouldn't even text you all of this.","sender":"Charlie"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9400,"text":"There’s no reason to change who you are. Just be yourself. You're not doing anything wrong.","decisionName":"NoNeedToSelfCensor"},
+{"id":2,"nextState":9400,"text":"It's smart to be cautious. You never know how things might be taken out of context.","decisionName":"CautionIsWarranted"},
+{"id":3,"nextState":9400,"text":"Honestly, it’s not a big deal. Most of this stuff doesn’t even get reviewed.","decisionName":"SurveillanceNotAGraveThreat"},
+{"id":4,"nextState":9400,"text":"I think you're right to be worried. It’s creepy how much they monitor everything now.","decisionName":"SurveillanceIsCreepy"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Thanks. Maybe I needed to hear that.","sender":"Charlie"},
+{"id":2,"text":"Yeah… that’s what I’m afraid of.","sender":"Charlie"},
+{"id":3,"text":"You’re probably right. I’ve just been paranoid lately.","sender":"Charlie"},
+{"id":4,"text":"Exactly! It’s like they’re always watching.","sender":"Charlie"}
+]},
+{"type":"singleAnswer","text":"Let's meet next week for Pizza 🍕 Then we can talk in person.","sender":"User"},
+{"type":"conversation","text":"Good idea. See you then.","sender":"Charlie"}]}}

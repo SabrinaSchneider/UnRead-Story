@@ -1,0 +1,33 @@
+{"callerName" : "Kim", 
+"callerImg" : "/contacts/imgs/Kim.png", 
+"conversation" : [
+{"type" : "choice", "text": "Hey, I ran into your grandma earlier. She was really happy to see me since I had been away for a whole year, but she said you guys argued about some new tech stuff. Hope everything’s alright?", 
+"audio": "/audio/S300_Kim/1_Hey.mp3", 
+"options": [
+{"id": 1, "text": "Max and Jack had a disagreement", "decisionName" : "mentionsFight"}, 
+{"id": 2, "text": "It was no big deal.", "decisionName" : "downplaysFight"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "Oh no, hope that gets sorted soon!", 
+"audio": "/audio/S300_Kim/2a_Oh no.mp3"}, 
+{"id": 2, "text": "Glad to hear that.", 
+"audio": "/audio/S300_Kim/2b_Your.mp3"}]},
+{"type" : "choice", "text": "What are you doing right now?", 
+"audio": "/audio/S300_Kim/3_What.mp3" , 
+"options": [
+{"id": 1, "text": "I saw this article about it in the news. Do you think they’re actually gonna go through with it?", "decisionName" : "singleDecision"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "I don't know, haven't really thought about it to be honest. Everything's got its pros and cons.", 
+"audio": "/audio/S300_Kim/4_I dont.mp3"}]},
+{"type" : "decision", "text": "What do you think?", 
+"audio": "/audio/S300_Kim/null.mp3" , 
+"options": [
+{"id": 1, "text": "I think it’d be a bad thing.", "nextState": 400, "decisionName" : "afterNewsPrimingProPrivacy" }, 
+{"id": 2, "text": "That article got me a bit confused.", "nextState": 400, "decisionName" : "afterNewsPrimingConfused"},
+{"id": 3, "text": "I think it’d be a good thing.", "nextState": 400, "decisionName" : "afterNewsPrimingProSurveillance" }]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "Fair. I'll have to go. Text you later.", 
+"audio": "/audio/S300_Kim/null.mp3"}, 
+{"id": 2, "text": "Fair, maybe you just need another opinion. I'll have to go. Text you later.", 
+"audio": "/audio/S300_Kim/null.mp3"},
+{"id": 3, "text": "Fair. I'll have to go. Text you later.", 
+"audio": "/audio/S300_Kim/null.mp3"}]}]}

@@ -1,0 +1,9 @@
+{"chat" : {"chatName" : "Family",
+"type" : "group",
+"messages" : [
+{"type" : "conversation", "text" : "Hello my dears,I hope you're all doing well! I was thinking, why not come over this weekend for some cake? I’ll make something nice, maybe chocolate cake. It’ll be lovely to see you all! Love, Grandma 💕🧁🍰🎂🥳", "sender" : "Rose"},
+{"type" : "singleAnswer", "text" : "Count me in. ", "sender" : "User"},
+{"type" : "conversation", "text" : "Hey, I’m free this weekend! Cake, sounds great😊", "sender" : "Max"},
+{"type" : "conversation", "text" : "I'm very happy that you have time. What about you Jack? 🥞🍪😄", "sender" : "Rose"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 120, "text" : "Yo little bro, I know you’re always late to reply, but I gotta plan my weekend - are you in?", "decisionName" : "singleDecision", "save" : false}]}]}}

@@ -1,0 +1,18 @@
+{"posts" :[{"title" : "Feeling a little 😢 today...",
+"sender" : "Jack",
+"textPost": ["One of my grandkids didn’t come over because of a silly fight 💔",
+"But the other two did and we had a nice cozy time anyway 🧁💛🧸",
+"I made extra cake 🍰 and it’s here whenever you want it, sweetie!",
+"Grandma loves you ALL 🫶 and won’t pick sides 🐑💋⚖️",
+"Family is everything ❤️❤️❤️ My door is always open 🚪🌼🎈"],
+"imgPost": "imgs/S10000/MaxRoseEnding.png",
+"author" : "-Rose"},
+{"title" : "Game Night 🎮",
+"sender" : "Max",
+"imgPost": "imgs/S10000/MaxAlone.png",
+"textPost": ["Was supposed to see family today...",
+"Ended up spending the whole day with a killer new game instead, and it was awesome.",
+"No drama, just pure fun. Sometimes, a good game > family gatherings. 🎮👌"],
+"author" : "-Max"}
+],
+"nextState": 20000}

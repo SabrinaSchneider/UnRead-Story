@@ -1,0 +1,28 @@
+{"chat":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey Max. Just wanted to let you know… I’ve been thinking a lot lately.","sender":"User"},
+{"type":"singleAnswer","text":"I did not sign the petition. I talked to Jack … ","sender":"User"},
+{"type":"conversation","text":"Wait, seriously?","sender":"Max"},
+{"type":"conversation","text":"You’re siding with Jack on this? What changed?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10004,"text":"What changed? Maybe I just grew up. Not everything’s a dystopian nightmare like you make it out to be.","decisionName":"ChallengeMax"},
+{"id":2,"nextState":9902,"text":"I know this isn’t what you want to hear. But I didn’t come here to fight.","decisionName":"SeekPeace"},
+{"id":3,"nextState":10004,"text":"Honestly, I still have doubts. But some surveillance seems necessary.","decisionName":"ExpressUncertainty"},
+{"id":4,"nextState":10004,"text":"Jack made some good points, but I’m not blindly following him.","decisionName":"DefendOwnView"},
+{"id":5,"nextState":9902,"text":"You’re right to be cautious. But don't just focus on the negative aspects.","decisionName":"CautionButPositiveAboutSurveillance"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Wow. So now I’m just some paranoid kid in your eyes?","sender":"Max"},
+{"id":2,"text":"Alright. I hate fighting with you.","sender":"Max"},
+{"id":3,"text":"Okay… you are just so wrong.","sender":"Max"},
+{"id":4,"text":"Thinking for yourself is all I ever wanted from you. I just don't see you doing it.","sender":"Max"},
+{"id":5,"text":"Well, at least you’re not just parroting Jack’s nonsense.","sender":"Max"}
+]},
+{"type":"singleAnswer","text":"Thanks for hearing me out. I know we won’t agree on everything, but I still care about our conversations.","sender":"User"},
+{"type":"answer","options":[
+{"id":1,"text":"I have no more words for you.","sender":"Max"},
+{"id":2,"text":"Sure. Glad we are back talking.","sender":"Max"},
+{"id":3,"text":"Leave me alone.","sender":"Max"},
+{"id":4,"text":"...","sender":"Max"},
+{"id":5,"text":"Glad, we talked.","sender":"Max"}
+]}
+]}}

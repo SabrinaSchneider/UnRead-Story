@@ -1,0 +1,72 @@
+{"chatA":{"chatName":"Rose","type":"single","messages":[
+{"type":"conversation","text":"Sweetie! 💕 I just read in the paper 🗞️ that the government wants to outsource our data?! 😳📤 Is that safe? Should I be worried? 🕵️","sender":"Rose"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9702,"text":"Yeah, that's really problematic. Only the government should handle our data, and even that worries me.","decisionName":"GovernmentShouldHandleData"},
+{"id":2,"nextState":9702,"text":"Honestly, outsourcing isn't the real problem here. The whole system is broken.","decisionName":"OutsourcingIsNotTheProblem"},
+{"id":3,"nextState":9702,"text":"I think outsourcing might even improve security if done right.","decisionName":"OutsourcingCouldHelpSecurity"},
+{"id":4,"nextState":9702,"text":"I'm not too worried. We have bigger things to focus on.","decisionName":"NotWorriedAboutOutsourcing"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Oh dear 😟 I thought the internet was just for cat videos and cake recipes! 🎂🐱","sender":"Rose"},
+{"id":2,"text":"Maybe I’ll stick to snail mail anyway 🐌💌","sender":"Rose"},
+{"id":3,"text":"That's an interesting take. I hope you're right about security.","sender":"Rose"},
+{"id":4,"text":"I understand. Sometimes I wish we could just ignore it all.","sender":"Rose"}
+]},
+{"type":"conversation","text":"This world’s too fast for me sometimes 🌀","sender":"Rose"},
+{"type":"conversation","text":"By the way… could you maybe talk to Max again? 🧑🦱💬 I hate that you two are fighting 😢👨👩👦👦 Can’t we all just have cookies and peace? 🍪✌️","sender":"Rose"},
+{"type":"singleAnswer","text":"I'll talk to him","sender":"User"}
+]},
+"chatB":{"chatName":"Rose","type":"single","messages":[
+{"type":"conversation","text":"Sweetie! 💕 I just read in the paper 🗞️ that the government wants to outsource our data?! 😳📤 Is that safe? Should I be worried? 🕵️","sender":"Rose"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9702,"text":"Yeah, that's really problematic. Only the government should handle our data, and even that worries me.","decisionName":"GovernmentShouldHandleData"},
+{"id":2,"nextState":9702,"text":"Honestly, outsourcing isn't the real problem here. The whole system is broken.","decisionName":"OutsourcingIsNotTheProblem"},
+{"id":3,"nextState":9702,"text":"I think outsourcing might even improve security if done right.","decisionName":"OutsourcingCouldHelpSecurity"},
+{"id":4,"nextState":9702,"text":"I'm not too worried. We have bigger things to focus on.","decisionName":"NotWorriedAboutOutsourcing"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Oh dear 😟 I thought the internet was just for cat videos and cake recipes! 🎂🐱","sender":"Rose"},
+{"id":2,"text":"Maybe I’ll stick to snail mail anyway 🐌💌","sender":"Rose"},
+{"id":3,"text":"That's an interesting take. I hope you're right about security.","sender":"Rose"},
+{"id":4,"text":"I understand. Sometimes I wish we could just ignore it all.","sender":"Rose"}
+]},
+{"type":"conversation","text":"This world’s too fast for me sometimes 🌀","sender":"Rose"},
+{"type":"conversation","text":"By the way… could you maybe talk to Max again? 🧑🦱💬 I hate that you two are fighting 😢👨👩👦👦 Can’t we all just have cookies and peace? 🍪✌️","sender":"Rose"},
+{"type":"singleAnswer","text":"I'll talk to him","sender":"User"}
+]},
+"chatC":{"chatName":"Rose","type":"single","messages":[
+{"type":"conversation","text":"Sweetie! 💕 I just read in the paper 🗞️ that the government wants to outsource our data?! 😳📤 Is that safe? Should I be worried? 🕵️","sender":"Rose"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9702,"text":"Yeah, that's really problematic. Only the government should handle our data, and even that worries me.","decisionName":"GovernmentShouldHandleData"},
+{"id":2,"nextState":9702,"text":"Honestly, outsourcing isn't the real problem here. The whole system is broken.","decisionName":"OutsourcingIsNotTheProblem"},
+{"id":3,"nextState":9702,"text":"I think outsourcing might even improve security if done right.","decisionName":"OutsourcingCouldHelpSecurity"},
+{"id":4,"nextState":9702,"text":"I'm not too worried. We have bigger things to focus on.","decisionName":"NotWorriedAboutOutsourcing"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Oh dear 😟 I thought the internet was just for cat videos and cake recipes! 🎂🐱","sender":"Rose"},
+{"id":2,"text":"Maybe I’ll stick to snail mail anyway 🐌💌","sender":"Rose"},
+{"id":3,"text":"That's an interesting take. I hope you're right about security.","sender":"Rose"},
+{"id":4,"text":"I understand. Sometimes I wish we could just ignore it all.","sender":"Rose"}
+]},
+{"type":"conversation","text":"This world’s too fast for me sometimes 🌀","sender":"Rose"},
+{"type":"conversation","text":"By the way… could you maybe talk to Jack again? 🧑🦱💬 I hate that you two are fighting 😢👨👩👦👦 Can’t we all just have cookies and peace? 🍪✌️","sender":"Rose"},
+{"type":"singleAnswer","text":"I'll talk to him","sender":"User"}
+]},
+"chatD":{"chatName":"Rose","type":"single","messages":[
+{"type":"conversation","text":"Sweetie! 💕 I just read in the paper 🗞️ that the government wants to outsource our data?! 😳📤 Is that safe? Should I be worried? 🕵️","sender":"Rose"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":9702,"text":"Yeah, that's really problematic. Only the government should handle our data, and even that worries me.","decisionName":"GovernmentShouldHandleData"},
+{"id":2,"nextState":9702,"text":"Honestly, outsourcing isn't the real problem here. The whole system is broken.","decisionName":"OutsourcingIsNotTheProblem"},
+{"id":3,"nextState":9702,"text":"I think outsourcing might even improve security if done right.","decisionName":"OutsourcingCouldHelpSecurity"},
+{"id":4,"nextState":9702,"text":"I'm not too worried. We have bigger things to focus on.","decisionName":"NotWorriedAboutOutsourcing"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Oh dear 😟 I thought the internet was just for cat videos and cake recipes! 🎂🐱","sender":"Rose"},
+{"id":2,"text":"Maybe I’ll stick to snail mail anyway 🐌💌","sender":"Rose"},
+{"id":3,"text":"That's an interesting take. I hope you're right about security.","sender":"Rose"},
+{"id":4,"text":"I understand. Sometimes I wish we could just ignore it all.","sender":"Rose"}
+]},
+{"type":"conversation","text":"This world’s too fast for me sometimes 🌀","sender":"Rose"},
+{"type":"conversation","text":"By the way… could you maybe talk to Jack again? 🧑🦱💬 I hate that you two are fighting 😢👨👩👦👦 Can’t we all just have cookies and peace? 🍪✌️","sender":"Rose"},
+{"type":"singleAnswer","text":"I'll talk to him","sender":"User"}
+]}}

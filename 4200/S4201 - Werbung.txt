@@ -1,0 +1,8 @@
+{"posts" : [{"title" : "I sneezed so hard my smart speaker said bless you.",
+"sender" : "Max",
+"textPost": ["Now I'm scared it knows too much.", 
+"Tomorrow it’ll probably ask me if I want tissues on my shopping list.",
+"This is how the robot uprising starts, isn’t it?",
+"#Sneezepocalypse #SendHelpOrTea"],
+"author" : "-anonymous"}],
+"nextState": 4203}

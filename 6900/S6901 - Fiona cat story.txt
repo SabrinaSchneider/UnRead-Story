@@ -1,0 +1,45 @@
+{"chat" : {"chatName" : "Fiona",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Do you have 2 minutes??", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "Because Mochi just did something ICONIC", "sender" : "Fiona"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "text" : "Always. Tell me everything.","decisionName":"WantsMochiStory"},
+{"id" : 2, "text" :  "Did he finally start paying rent?","decisionName":"MakesOwnMochiJoke"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "Great 😻", "sender": "Fiona"}, 
+{"id": 2, "text": "LMAO I wish.", "sender": "Fiona"}]},
+{"type" : "conversation", "text" : "So I was in the kitchen, making a sandwich, right?", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "And I turn around for like 10 seconds.", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "I swear. Just 10.", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "And when I look back…", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "HE’S ON THE COUNTER WEARING A SLICE OF CHEESE ON HIS HEAD.", "sender" : "Fiona"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"text":"Wait what?? Like balanced? Or fashion statement?","decisionName":"AskIfBalancedOrFashion"},
+{"id":2,"text":"Classic Mochi. Probably plotting his next cheese heist.","decisionName":"JokeAboutCheeseHeist"},
+{"id":3,"text":"Honestly, I’d just be annoyed. Cats and counters don’t mix.","decisionName":"ExpressAnnoyance"},
+{"id":4,"text":"Is this why you never invite me over? Cheese samurai attacks?","decisionName":"TeaseAboutVisits"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Balanced. Perfectly. Like a weird little dairy samurai. He just looked at me like this is who I am now.","sender":"Fiona"},
+{"id":2,"text":"Definitely! That sneaky cheese bandit never rests.","sender":"Fiona"},
+{"id":3,"text":"I mean, I get it, but he’s my chaos and I wouldn’t trade it for anything.","sender":"Fiona"},
+{"id":4,"text":"Haha no way! You’re welcome anytime, just prepare for Mochi’s antics!","sender":"Fiona"}
+]},
+{"type" : "conversation", "text" : "He just looked at me like this is who I am now.", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "Anyway, I couldn’t even be mad.", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "I gave him a treat and took 12 blurry photos.", "sender" : "Fiona"},
+{"type" : "conversation", "text" : "Want me to post the cheese pic? It’s cursed and perfect.", "sender" : "Fiona"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":6902,"text":"Obviously. I need that chaos in my life.","decisionName":"PostCheeseCatPic"},
+{"id":2,"nextState":6902,"text":"Only if it becomes his official passport photo.","decisionName":"JokeAboutPassportPhoto"},
+{"id":3,"nextState":6902,"text":"Nah, wouldn't post it.","decisionName":"KeepPicPrivate"},
+{"id":4,"nextState":6902,"text":"Post it but warn people to never trust a cat with cheese.","decisionName":"WarnAboutCheeseCats"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"You're welcome 😼🧀 Mochi demands his 15 minutes of fame.","sender":"Fiona"},
+{"id":2,"text":"Mochi, Professional Cheese Wizard. He’s gonna be so famous.","sender":"Fiona"},
+{"id":3,"text":"Well, I thinks it's too cute to keep secret.","sender":"Fiona"},
+{"id":4,"text":"Fair warning. People need to know the risks of feline dairy fashion.","sender":"Fiona"}
+]}
+]}}

@@ -1,0 +1,44 @@
+{"chatA" : {"chatName" : "Jack",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, have you seen Grandma Rose's posts? She’s been posting way too many motivational quotes lately. We might need to explain the internet to her again... 😅", "sender" : "Jack"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 3900, "text" : "I think she believes #LifeIsBeautiful is her new full-time job! 😜", 
+"decisionName" : "Joke1"},
+{"id" : 2, "nextState" : 3900, "text" :  "At this point, I’m waiting for her to post a quote about how to find the 'power of Wi-Fi' 😆", 
+"decisionName" : "Joke2"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "😂", "sender": "Jack"}, { "id": 2, "text": "😂", "sender": "Jack"}]},
+{"type" : "conversation", "text" : "Haha, yeah! She’s like the queen of inspirational hashtags now. 🤣", "sender" : "Jack"}]},
+"chatB" : {"chatName" : "Jack",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, have you seen Grandma Rose's posts? She’s been posting way too many motivational quotes lately. We might need to explain the internet to her again... 😅", "sender" : "Jack"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 3900, "text" : "I think she believes #LifeIsBeautiful is her new full-time job! 😜", 
+"decisionName" : "Joke1"},
+{"id" : 2, "nextState" : 3900, "text" :  "At this point, I’m waiting for her to post a quote about how to find the 'power of Wi-Fi' 😆", 
+"decisionName" : "Joke2"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "😂", "sender": "Jack"}, { "id": 2, "text": "😂", "sender": "Jack"}]},
+{"type" : "conversation", "text" : "Haha, yeah! She’s like the queen of inspirational hashtags now. 🤣", "sender" : "Jack"}]},
+"chatC" : {"chatName" : "Max",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, have you seen Grandma Rose's posts lately? She’s been posting way too many motivational quotes. 😂 We might need to sit her down and explain the internet to her again.", "sender" : "Max"},
+{"type" : "conversation", "text" : "Did you know that a group of flamingos is called a 'flamboyance'? Just a little fun fact for you!", "sender" : "Max"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 3900, "text" : "Maybe Grandma Rose thinks she’s starting her own 'flamboyance' of motivational posts. 😂", 
+"decisionName" : "Joke1"},
+{"id" : 2, "nextState" : 3900, "text" :  "Maybe Grandma Rose’s posts are just as colorful as a whole bunch of flamingos!", 
+"decisionName" : "Joke2"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "😂", "sender": "Max"}, { "id": 2, "text": "😂", "sender": "Max"}]}]},
+"chatD" : {"chatName" : "Max",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, have you seen Grandma Rose's posts lately? She’s been posting way too many motivational quotes. 😂 We might need to sit her down and explain the internet to her again.", "sender" : "Max"},
+{"type" : "conversation", "text" : "Did you know that a group of flamingos is called a 'flamboyance'? Just a little fun fact for you!", "sender" : "Max"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 3900, "text" : "Maybe Grandma Rose thinks she’s starting her own 'flamboyance' of motivational posts. 😂", 
+"decisionName" : "Joke1"},
+{"id" : 2, "nextState" : 3900, "text" :  "Maybe Grandma Rose’s posts are just as colorful as a whole bunch of flamingos!", 
+"decisionName" : "Joke2"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "😂", "sender": "Max"}, { "id": 2, "text": "😂", "sender": "Max"}]}]}}

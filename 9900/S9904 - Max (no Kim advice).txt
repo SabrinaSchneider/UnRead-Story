@@ -1,0 +1,33 @@
+{"chat":{"chatName":"Max","type":"single","messages":[
+{"type":"singleAnswer","text":"Have you had some time to think?","sender":"User"},
+{"type":"conversation","text":"Hey. Yeah, I have.","sender":"Max"},
+{"type":"conversation","text":"Also, did you know cows have best friends and get stressed when they’re separated?","sender":"Max"},
+{"type":"singleAnswer","text":"I know we don’t see it the same way.","sender":"User"},
+{"type":"conversation","text":"No, we really don’t.","sender":"Max"},
+{"type":"conversation","text":"I just don’t get how you can be okay with giving up freedom. Like... seriously?","sender":"Max"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10007,"text":"I don’t like it, but I think it's necessary sometimes. The world’s more complicated than it used to be.","decisionName":"SurveillanceIsNecessary"},
+{"id":2,"nextState":10007,"text":"I just think we’ve got to trust the systems we put in place. If we don’t, what’s the point?","decisionName":"TrustTheSystem"},
+{"id":3,"nextState":10006,"text":"Maybe you should talk to Jack. Let's just stop fighting ","decisionName":"TalkToJack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Seriously? That’s the excuse?","sender":"Max"},
+{"id":2,"text":"Wow. You sound just like Jack. What is it with you two?","sender":"Max"},
+{"id":3,"text":"You think Jack has the answers? He’s the last person I want advice from.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"That’s like saying, 'Hey, fire’s dangerous, so let’s live in a fireproof box.'","sender":"Max"},
+{"id":2,"text":"Did your parents raise you to trust Big Brother or something?","sender":"Max"},
+{"id":3,"text":"Jack’s so naive.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"You’re not thinking long term. This is how it starts.","sender":"Max"},
+{"id":2,"text":"Did you know termites build air-conditioned skyscrapers out of mud? Even bugs understand systems break down eventually.","sender":"Max"},
+{"id":3,"text":"Did you know termites build air-conditioned skyscrapers out of mud? Even bugs understand systems break down eventually.","sender":"Max"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Leave me alone, for good.","sender":"Max"},
+{"id":2,"text":"I'll talk to Jack if I want more of this bullshit.","sender":"Max"},
+{"id":3,"text":"I'll talk to Jack.","sender":"Max"}
+]}
+]}}

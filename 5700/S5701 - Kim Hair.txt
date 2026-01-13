@@ -1,0 +1,10 @@
+{"posts" : [{"title" : "✨ Yes, it’s blonde.",
+"sender" : "Kim",
+"textPost": ["If you haven’t noticed from my profile pic yet...",
+"I went full American.",
+"New hair, new energy, slightly more chaotic decisions.",
+"Blondes do have more fun.",
+"#BlondeNow #USAInfluence #CatchMeShining"],
+"imgPost": "/imgs/S5700/KimHair.png",
+"author" : "-Kim"}],
+"nextState": 5702}

@@ -1,0 +1,4 @@
+{"news": [{"headline" : "Government Broadens Surveillance Technology to Target Tax Evasion", 
+"img" : "/imgs/S6800/Tax Evasion.png", 
+"text": "The government has announced another expansion of its surveillance technology, initially introduced to combat child sexual abuse material, terrorism, drug use, and drug trafficking. The system will now also be used to detect and prevent tax evasion. Supporters argue that this move will enhance the efficiency of law enforcement and ensure greater financial accountability. However, critics are raising concerns about potential overreach and the implications for individual privacy. "}],
+"nextState": 7900}

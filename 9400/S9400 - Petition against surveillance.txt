@@ -1,0 +1,10 @@
+[{"title" : "Petition against any surveillance technology",
+"options": [
+{"id": 1,
+"text": "sign",
+"nextState": 9501, "decisionName" : "SignedAntiSurveillancePetition"}, 
+{"id": 2,
+"text": "delete",
+"nextState": 9502, "decisionName" : "DeletedAntiSurveillancePetition"}],
+"explanation": "This Petition is against the new surveillance technology the goverment launched against all crimes. We want the whole technology to stop from the ground up. It doesn't matter if you signed a specific Petition lately. It has to come to an end. Sign if you agree."}
+]

@@ -1,0 +1,45 @@
+{"chat" : {"chatName" : "Family",
+"type" : "group",
+"messages" : [
+{"type" : "conversation", "text" : "@Jack?", "sender" : "Max"},
+{"type" : "conversation", "text" : "Sorry, not sure I'll make it. Maybe some other time, grandma.", "sender" : "Jack"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "text" : "Why not?", "decisionName" : "askWhyNot"},
+{"id" : 2, "text" :  "It would have been nice if you had said that earlier.", "decisionName" : "expressDisappointment"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "Doesn't matter.", "sender": "Jack"}, 
+{"id": 2, "text": "Sorry.", "sender": "Jack"}]},
+{"type" : "conversation", "text" : "Please tell me this isn't about you still being mad at me about the other day", "sender" : "Max"},
+{"type" : "conversation", "text" : "Not mad, I just feel like you're always making me the bad guy when we talk about this and I'm tired of it", "sender" : "Jack"},
+{"type" : "conversation", "text" : "Oh, come on", "sender" : "Max"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "text" : "Alright, timeout... whats going on?", "decisionName" : "callTimeoutAndAsk"},
+{"id" : 2, "text" :  "We’re not visiting grandma because of some stupid fight?", "decisionName" : "callsFightStupid"}]},
+{"type" : "answer", "options": [
+{"id": 1, "text": "Jack is just dumb.", "sender": "Max"}, 
+{"id": 2, "text": "Sorry Grandma, but this topic is really important.", "sender": "Jack"}]},
+{"type" : "conversation", "text" : "It's about this scanning and tracking thing the government wants to do", "sender" : "Max"},
+{"type" : "conversation", "text" : "'Tracking thing', you're so biased", "sender" : "Jack"},
+{"type" : "conversation", "text" : "Ok, so, there's a huge problem with online crime at the moment, right? And the government is debating some new technology to make it possible to catch some of these criminals", "sender" : "Jack"},
+{"type" : "conversation", "text" : "Surveillance, you mean.", "sender" : "Max"},
+{"type" : "conversation", "text" : "If you're not a criminal, you will be fine. They aren't intrested in all your little secrets.", "sender" : "Jack"},
+{"type" : "conversation", "text" : "They should respect our privacy, they shouldn't have all our data.", "sender" : "Max"},
+{"type" : "conversation", "text" : "I’m not a criminal, so I feel okay about it.", "sender" : "Jack"},
+{"type" : "conversation", "text" : "That’s got nothing to do with it. I’m not a criminal either, but I still don’t like it.", "sender" : "Max"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "text" : "I would be okay with it", "decisionName" : "supportSurveillance"},
+{"id" : 2, "text" : "I wouldn't be okay with it", "decisionName" : "opposeSurveillance"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "Doesn’t matter anyway. That’s a decision the government should make. I mean, we elected them, after all.", "sender": "Jack"}, { "id": 2, "text": "I’d even go as far as saying the government shouldn’t decide that over our heads.", "sender": "Max"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "No one should make that decision over our heads just because some people might not care.", "sender": "Max"}, { "id": 2, "text": "Who else? When the government decides, it is at least indirectly democratic", "sender": "Jack"}]},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "text" : "I think the government should decide about things like that", "decisionName" : "trustGovernmentDecision"},
+{"id" : 2, "text" : "I think the government shouldn't make decisions like that", "decisionName" : "rejectGovernmentDecision"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "Their job is to make the best decision for us.", "sender": "Jack"}, { "id": 2, "text": "You shouldn't give them that much power.", "sender": "Max"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "That does not mean that they do.", "sender": "Max"}, { "id": 2, "text": "We live in a democracy, not everyone can do what you want, Max.", "sender": "Jack"}]},
+{"type" : "conversation", "text" : "Jack, I just wish you would think about this critically 🤔", "sender" : "Max"},
+{"type" : "conversation", "text" : "You think I don't? Dude, that's so rude and condescending 🙄 Have you even considered how much something like this could help everyone?", "sender" : "Jack"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "text" : "I believe this technology will make our lives safer and more secure.", "decisionName" : "proSurveillance", "nextState" : 200},
+{"id" : 2, "text" : " I believe protecting our privacy is essential.", "decisionName" : "proPrivacy", "nextState" : 200}]},
+{"type" : "answer", "options": [{"id": 1, "text": "For real? This is so dumb. I’m out.", "sender": "Max"}, { "id": 2, "text": "For real? This is so naive. I’m out.", "sender": "Jack"}]}
+]}}

@@ -1,0 +1,13 @@
+{"chat" : {"chatName" : "Max",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Hey, I'm short on time, so I'll keep this quick. There’s a workaround to prevent the new tech from accessing your phone.", "sender" : "Max"},
+{"type" : "singleAnswer", "text" : "What do I need to do?", "sender" : "User"},
+{"type" : "conversation", "text" : "First, go into your settings app. Then, turn off the cloud sync. After that, enable encryption and set up an app lock with a password. Oh, and you'll also need to install a specific app I’ll send you the link later.", "sender" : "Emma"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id" : 1, "nextState" : 5401, "text" : "Sounds like a lot of work. Is it really necessary?", "decisionName" : "WorkaroundTooMuchWork"},
+{"id" : 2, "nextState" : 5401, "text" :  "Thanks. That's helpful. I'm on it.", "decisionName" : "WorkaroundGoodIdea"}]},
+{"type" : "answer", "options": [{"id": 1, "text": "Your choice.", "sender": "Max"}, { "id": 2, "text": "You're welcome.", "sender": "Max"}]},
+{"type" : "conversation", "text" : "Feel free to share this with anyone who wants to protect themselves.", "sender" : "Max"},
+{"type" : "conversation", "text" : "I have to go. Don't forget to save the settings, when your done.", "sender" : "Max"}]
+}}

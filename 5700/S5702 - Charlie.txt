@@ -1,0 +1,28 @@
+{"chat":{"chatName":"Charlie","type":"single","messages":[
+{"type":"conversation","text":"Okay I need your brain.","sender":"Charlie"},
+{"type":"singleAnswer","text":"😂","sender":"User"},
+{"type":"conversation","text":"I’ve been double-invited. My dad’s birthday is at the same day as Fiona’s.","sender":"Charlie"},
+{"type":"conversation","text":"I mean… obviously I have to go to Dad’s, right? It’s family. He raised me. Taught me how to ride a bike. That kind of stuff.","sender":"Charlie"},
+{"type":"conversation","text":"BUT Fiona is my friend and she will 100% notice if I don’t show up. She might even unfriend me. Or worse… passive-aggressively change her profile pic to something sad.","sender":"Charlie"},
+{"type":"conversation","text":"Ugh maybe I’ll go to Fiona’s. She has snacks.","sender":"Charlie"},
+{"type":"conversation","text":"No wait. That’s horrible. I’m a terrible son. I’ll go to Dad’s.","sender":"Charlie"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":6800,"text":"I’d go to your dad’s.","decisionName":"ChooseFamilyOverFriend"},
+{"id":2,"nextState":6800,"text":"Honestly, I’d go to Fiona’s.","decisionName":"ChooseFriendOverFamily"},
+{"id":3,"nextState":6800,"text":"Maybe ask your dad if he’d understand?","decisionName":"AskFamilyForUnderstanding"},
+{"id":4,"nextState":6800,"text":"Maybe ask Fiona if she’d understand? If she’s a real friend, she will.","decisionName":"AskFriendForUnderstanding"},
+{"id":5,"nextState":6800,"text":"Skip both and take a self-care day. No pressure from anyone.","decisionName":"SkipBothAndRest"}]},
+{"type":"answer","options":[
+{"id":1,"text":"Yeah… that makes sense. Dad would be really hurt if I skipped.","sender":"Charlie"},
+{"id":2,"text":"True... Fiona’s party is just a party, but Dad’s only turns 60 once.","sender":"Charlie"},
+{"id":3,"text":"True... Dad isn't even having a big party, just some cake.","sender":"Charlie"},
+{"id":4,"text":"Huh. That’s a thought. She might be mad for like five minutes… but she’ll get it.","sender":"Charlie"},
+{"id":5,"text":"Honestly, that sounds kind of tempting right now.","sender":"Charlie"}]},
+{"type":"singleAnswer","text":"Wait","sender":"User"},
+{"type":"singleAnswer","text":"Are they even at the same time?","sender":"User"},
+{"type":"conversation","text":"...","sender":"Charlie"},
+{"type":"conversation","text":"No","sender":"Charlie"},
+{"type":"conversation","text":"Dad’s is at lunch. Fiona’s is in the evening.","sender":"Charlie"},
+{"type":"conversation","text":"I’M FREE. I CAN DO BOTH. You're the best 😂","sender":"Charlie"},
+{"type":"conversation","text":"Or maybe neither. Too much pressure now.","sender":"Charlie"}
+]}}

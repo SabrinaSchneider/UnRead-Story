@@ -1,0 +1,24 @@
+{"callerName" : "Henry", 
+"callerImg" : "/contacts/imgs/Henry.png", 
+"conversation" : [
+{"type" : "choice", "text": "Hey... um, it's me. Rose told me to call you. I... I hope this is a good time?", 
+"audio": "/audio/S1601_Henry/null.mp3" , "options": [
+{"id": 1, "text": "Sure, what's going on?","decisionName":"AsksWhatsWrong"}, 
+{"id": 2, "text": "Sure, she is worried about you.","decisionName":"RoseWorries"},
+{"id": 3,"text":"Now is not the best time, but go ahead.","decisionName":"NotTheBestTime"}]},
+{"type" : "decision", "text": "Rose said you know a lot about this new tech they're talking about... I'm just worried, I guess. Feels like someone’s always... watching. Or listening. It's not right.", 
+ "audio": "/audio/S1601_Henry/null.mp3",
+ "options": [
+{"id":1,"text":"I know, it's all really scary. It’s unsettling, and it can get into your head. I feel the same sometimes.","nextState":1701,"decisionName":"ValidateFear"},
+{"id":2,"text":"Trust me, you're definitely not watched constantly. The government is not your enemy.","nextState":1701,"decisionName":"DownplayFear"},
+{"id":3,"text":"Honestly, I think you're overthinking it. No one cares about our boring lives enough to spy on us.","nextState":1701,"decisionName":"DismissConcerns"},
+{"id":4,"text":"You're not wrong. Some of this surveillance feels excessive.","nextState":1701,"decisionName":"AgreeTooMuchSurveillance"},
+{"id":5,"text":"It’s complicated. Some oversight might be necessary, but it has to be balanced.","nextState":1701,"decisionName":"BalancedView"}
+]},
+{"type" : "answer", "options": [
+{"id":1,"text":"Thanks, I feel better now. I don't think we should talk longer as we're on a phone... Hope I see you around soon.","audio":"/audio/S1601_Henry/null.mp3"},
+{"id":2,"text":"Hmm. I still have doubts, but I appreciate you talking to me. I’ll think about what you said.","audio":"/audio/S1601_Henry/null.mp3"},
+{"id":3,"text":"I don't feel like you really get it, but maybe that’s on me. Anyway, I need to go.","audio":"/audio/S1601_Henry/null.mp3"},
+{"id":4,"text":"Wow. You really get it. I’m glad Rose told me to call. This helped a lot.","audio":"/audio/S1601_Henry/null.mp3"},
+{"id":5,"text":"Yeah, maybe I overreacted. But sometimes I just feel overwhelmed by all this stuff.","audio":"/audio/S1601_Henry/null.mp3"}
+]}]}

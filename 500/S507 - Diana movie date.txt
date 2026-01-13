@@ -1,0 +1,21 @@
+{
+"chat": {
+"chatName": "Diana",
+"type": "single",
+"messages": [
+{"type": "singleAnswer", "text": "How was your date last night?", "sender": "User"},
+{"type": "conversation", "text": "Oh wow… total operational failure. 😅 We had a strategic plan: movie, then drinks. But execution was way off.", "sender": "Diana"},
+{"type": "singleAnswer", "text": "What happened?", "sender": "User"},
+{"type": "conversation", "text": "First, he showed up 20 minutes late. No heads-up, zero communication. That’s already a red flag.", "sender": "Diana"},
+{"type": "conversation", "text": "And then he spent half the movie checking his phone. Like, honestly?", "sender": "Diana"},
+{"type": "conversation", "text": "But hey, I saved the post-date analysis exclusively for you. I needed your debrief energy. 😂", "sender": "Diana"},
+{"type": "decision", "sender": "User", "options": [
+{"id": 1, "nextState": 1500, "text": "That sounds horrible.", "decisionName": "HorribleDate"},
+{"id": 2, "nextState": 1500, "text": "Well, now we know, he's not the one.", "decisionName": "NotTheOne"},
+{"id": 3, "nextState": 1500, "text": "Being on your phone is such a red flag", "decisionName": "RedFlag"}
+]},
+{"type": "answer", "options": [
+{"id": 1, "text": "It was! And yet somehow entertaining. Like a disaster movie I didn’t audition for.", "sender": "Diana"},
+{"id": 2, "text": "I should be grateful that he showed his true self so quickly.", "sender": "Diana"},
+{"id": 3, "text": "Right? Next! Still sad, had real hopes.", "sender": "Diana"}
+]}]}}

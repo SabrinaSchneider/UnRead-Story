@@ -1,0 +1,7 @@
+{"posts" : [{"title" : "I'm back !!!",
+"sender" : "Kim",
+"textPost": ["Just got back from America and I’m already struggling.", 
+"This morning I smiled at a stranger and they didn’t smile back. In the U.S., that would’ve triggered a full conversation, three compliments, and probably an invite to Thanksgiving. 🇺🇸🦃"],
+"imgPost": "/imgs/S500/Plane.png",
+"author" : "-Kim"}],
+"nextState": 504}

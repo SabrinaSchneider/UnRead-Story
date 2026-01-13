@@ -1,0 +1,17 @@
+{"posts" :[
+{"title" : "Here is a workaround for the new surveillance tech",
+"sender" : "User",
+"options": [
+{"id": 1,
+"text": "post",
+"nextState": 5601, "decisionName" : "PublishWorkaround"}, 
+{"id": 2,
+"text": "delete",
+"nextState": 5602, "decisionName" : "DoNotPublishWorkaround"}],
+"textPost": [
+"Hey guys, i feel like everyone should be able to protect themselves. There is a workaround against the new surveillance technology of the government.",
+"Step 1: Turn Off Cloud Sync.", 
+"Step 2: Enable encryption",
+"Step 3: use a password to lock your apps.",
+"Install App : www.download/securityApp.com"],
+"author" : "-anonymous"}]}

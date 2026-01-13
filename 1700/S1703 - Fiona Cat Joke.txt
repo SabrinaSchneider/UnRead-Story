@@ -1,0 +1,20 @@
+{"chat" : {"chatName" : "Fiona",
+"type" : "single",
+"messages" : [
+{"type" : "conversation", "text" : "Wanna hear a cat joke?", "sender" : "Fiona"},
+{"type" : "singleAnswer", "text" : "Always. I know you've always wanted a cat since we were little.", "sender" : "User"},
+{"type" : "conversation", "text" : "I definitely still want one, but first the joke: Why was the cat sitting on the computer?", "sender" : "Fiona"},
+{"type" : "decision", "sender" : "User", "options" : [
+{"id":1,"nextState":2700,"text":"No idea, why?" ,"decisionName":"CuriousNeutral"},
+{"id":2,"nextState":2700,"text":"Trying to order tuna on Amazon?", "decisionName":"SillyGuess"},
+{"id":3,"nextState":2700,"text":"Probably trying to delete the dog photos.", "decisionName":"AntiDogJoke"},
+{"id":4,"nextState":2700,"text":"Sounds like a setup for a terrible pun...", "decisionName":"SkepticalDismissal"}
+]}, 
+{"type" : "answer", "options": [
+{"id":1,"text":"Because it wanted to keep an eye on the mouse 😼💻🐭","sender":"Fiona"},
+{"id":2,"text":"You're not wrong about the tuna, but actually, it was keeping an eye on the mouse 😹","sender":"Fiona"},
+{"id":3,"text":"Haha no, it was keeping an eye on the mouse 😹","sender":"Fiona"},
+{"id":4,"text":"Terrible pun confirmed: it wanted to keep an eye on the mouse 😂","sender":"Fiona"}
+]},
+{"type" : "singleAnswer", "text" : "😂 That’s so bad it’s good.", "sender" : "User"}
+]}}

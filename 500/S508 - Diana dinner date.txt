@@ -1,0 +1,19 @@
+{"chat": {
+"chatName": "Diana",
+"type": "single",
+"messages": [
+{"type": "singleAnswer", "text": "How was your date last night?", "sender": "User"},
+{"type": "conversation", "text": "Oh wow… total operational failure. 😅 It was a full-on dinner disaster. Like, next-level chaos.", "sender": "Diana"},
+{"type": "singleAnswer", "text": "What happened?", "sender": "User"},
+{"type": "conversation", "text": "Let’s just say the experience was not aligned with my expectations. He showed up 20 minutes late. We had zero conversational synergy. Total mismatch of energy. I tried to pivot the dialogue, but he kept hard-launching into monologues about crypto and his gym routine.", "sender": "Diana"},
+{"type": "conversation", "text": "Honestly, I was dying to tell you about it. Do it for the plot, right?", "sender": "Diana"},
+{"type": "decision", "sender": "User", "options": [
+{"id": 1, "nextState": 1500, "text": "That sounds horrible", "decisionName": "HorribleDate"},
+{"id": 2, "nextState": 1500, "text": "Sounds like a total fail, but you handled it like a pro.", "decisionName": "HandledLikeAPro"},
+{"id": 3, "nextState": 1500, "text": "Maybe next time, you'll find prince charming.", "decisionName": "Optimistic"}
+]},
+{"type": "answer", "options": [
+{"id": 1, "text": "I enjoyed the food😅 Definitely no second date planned 😂", "sender": "Diana"},
+{"id": 2, "text": "Thanks for the pep talk, crisis averted.", "sender": "Diana"},
+{"id": 3, "text": "Right? Next! Still sad, had real hopes.", "sender": "Diana"}
+]}]}}

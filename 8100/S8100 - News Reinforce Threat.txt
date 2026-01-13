@@ -1,0 +1,4 @@
+{"news": [{"headline" : "Truck Crashes Into Christmas Market", 
+"img" : "/imgs/S8100/Christmas Market.png", 
+"text": "In a horrific act of violence, a truck was deliberately driven into a crowded Christmas market in downtown yesterday, killing at least 6 people and leaving 72 others with severe injuries. The tragic event, which occurred in the heart of the holiday season, has left the city in mourning and sparked widespread outrage. Authorities are investigating the motive behind the attack, but the sheer scale of the devastation has prompted calls for immediate action."}
+],"nextState": 8202}

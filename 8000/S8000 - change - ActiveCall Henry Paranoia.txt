@@ -1,0 +1,12 @@
+{"callerName":"Henry","callerImg":"/contacts/imgs/Henry.png","conversation":[
+{"type":"decision",
+"text":"Hey... um, it's me. Rose told me to call you again. Do you have a second?","audio":"/audio/S8000_Henry/1_Hey.mp3","options":[
+{"id":1,"text":"Yeah, still paranoid?","decisionName":"DismissiveResponse","nextState":8100},
+{"id":2,"text":"Yeah, I get that you’re worried.","decisionName":"EmpatheticResponse","nextState":8100},
+{"id":3,"text":"Honestly, I’m not sure this is a good idea.","decisionName":"CautiousResponse","nextState":8100}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Wow. Shouldn't have called.","audio":"/audio/S8000_Henry/null.mp3"},
+{"id":2,"text":"Thank you. Maybe we can talk next time you visit Rose. I don't think we should talk longer as we're on a phone....","audio":"/audio/S27 - Henry/S8000_Henry/null.mp3"},
+{"id":3,"text":"Okay... Maybe we can talk next time you visit Rose. I don't think we should talk longer as we're on a phone....","audio":"/audio/S8000_Henry/null.mp3"}
+]}]}

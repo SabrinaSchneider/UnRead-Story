@@ -1,0 +1,31 @@
+{"chat":{"chatName":"Jack","type":"single","messages":[
+{"type":"singleAnswer","text":"Hey, have you had a chance to think about things?","sender":"User"},
+{"type":"singleAnswer","text":"Jack?","sender":"User"},
+{"type":"conversation","text":"Sorry I’m late again...shocker, I know.","sender":"Jack"},
+{"type":"singleAnswer","text":"Haha, no surprise. But thanks for replying.","sender":"User"},
+{"type":"conversation","text":"I’ve been thinking a lot.","sender":"Jack"},
+{"type":"decision","sender":"User","options":[
+{"id":1,"nextState":10005,"text":"I just don’t get why you were so upset. I wasn’t even trying to hurt you.","decisionName":"DontUnderstandWhyJackIsUpset"},
+{"id":2,"nextState":10002,"text":"I still care about you, even if I didn’t show it in the best way.","decisionName":"CareAboutJack","save":"true"},
+{"id":3,"nextState":10002,"text":"Maybe you should talk to Max too. Let's stop fighting.","decisionName":"TalkToMax"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"Really? That’s how you see it?","sender":"Jack"},
+{"id":2,"text":"That actually means a lot.","sender":"Jack"},
+{"id":3,"text":"Max? He always takes your side anyway.","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"You still don’t get it.","sender":"Jack"},
+{"id":2,"text":"I’ve been stubborn, yeah. But I missed us.","sender":"Jack"},
+{"id":3,"text":"I miss talking to Max just a bit, but don't dare to tell him.","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"And now you’re acting like it’s my fault for being upset?","sender":"Jack"},
+{"id":2,"text":"Maybe we don’t always get it right, but I don’t want to lose this over one fight.","sender":"Jack"},
+{"id":3,"text":"Let me guess, Max told you he misses me.","sender":"Jack"}
+]},
+{"type":"answer","options":[
+{"id":1,"text":"You know what, maybe we’re not on the same page after all.","sender":"Jack"},
+{"id":2,"text":"But next time I’m late, I expect minimal judgment.","sender":"Jack"},
+{"id":3,"text":"I'll call him.","sender":"Jack"}
+]}]}}

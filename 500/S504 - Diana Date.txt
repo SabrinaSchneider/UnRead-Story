@@ -1,0 +1,19 @@
+{
+"chat": {
+"chatName": "Diana",
+"type": "single",
+"messages": [
+{"type": "conversation", "text": "Okay, don’t laugh, I matched with someone on Winder. I need emergency bestie advice.", "sender": "Diana"},
+{"type": "singleAnswer", "text": "You know I live for this. What’s up?", "sender": "User"},
+{"type": "conversation", "text": "He seems really cool, like, not-just-another-weirdo cool. Should I go for a movie or dinner? I want it to feel natural but still a little special.", "sender": "Diana"},
+{"type": "decision", "sender": "User", "options": [
+{"id": 1, "nextState": 506, "text": "Dinner, more time to talk, better vibe.", "decisionName": "DinnerDate"},
+{"id": 2, "nextState": 505, "text": "Movie, chill and less pressure.", "decisionName": "MovieDate"},
+{"id": 3, "nextState": 506, "text": "You should suggest both and see what he leans toward.", "decisionName": "LetHimDecide"}
+]},
+{"type": "answer", "options": [
+{"id": 1, "text": "That’s so you. Classic wise dinner advice. You're right, I do talk too much for a movie😂😂", "sender": "Diana"},
+{"id": 2, "text": "You get me! Less pressure, and I won’t accidentally spill wine on myself. Again😂😂", "sender": "Diana"},
+{"id": 3, "text": "Smart move. I like it when you make me sound strategic. 😂😂", "sender": "Diana"}
+]},
+{"type": "conversation", "text": "I swear, if this date turns into a rom-com disaster, you’re helping me write the group chat summary.", "sender": "Diana"}]}}
