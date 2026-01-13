@@ -1,2 +1,2 @@
-# -Un-Read---Story
+# (Un)Read -Story
 Storylines of the game (Un)Read
